@@ -1,0 +1,437 @@
+{
+  "id": "A00-A09",
+  "desc": "Intestinal infectious diseases (A00-A09)",
+  "diag": [{
+    "name": "A00",
+    "desc": "Cholera",
+    "diag": [{
+      "name": "A00.0",
+      "desc": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+      "inclusionTerm": {
+        "note": "Classical cholera"
+      }
+    }, {
+      "name": "A00.1",
+      "desc": "Cholera due to Vibrio cholerae 01, biovar eltor",
+      "inclusionTerm": {
+        "note": "Cholera eltor"
+      }
+    }, {
+      "name": "A00.9",
+      "desc": "Cholera, unspecified"
+    }]
+  }, {
+    "name": "A01",
+    "desc": "Typhoid and paratyphoid fevers",
+    "diag": [{
+      "name": "A01.0",
+      "desc": "Typhoid fever",
+      "inclusionTerm": {
+        "note": "Infection due to Salmonella typhi"
+      },
+      "diag": [{
+        "name": "A01.00",
+        "desc": "Typhoid fever, unspecified"
+      }, {
+        "name": "A01.01",
+        "desc": "Typhoid meningitis"
+      }, {
+        "name": "A01.02",
+        "desc": "Typhoid fever with heart involvement",
+        "inclusionTerm": {
+          "note": ["Typhoid endocarditis", "Typhoid myocarditis"]
+        }
+      }, {
+        "name": "A01.03",
+        "desc": "Typhoid pneumonia"
+      }, {
+        "name": "A01.04",
+        "desc": "Typhoid arthritis"
+      }, {
+        "name": "A01.05",
+        "desc": "Typhoid osteomyelitis"
+      }, {
+        "name": "A01.09",
+        "desc": "Typhoid fever with other complications"
+      }]
+    }, {
+      "name": "A01.1",
+      "desc": "Paratyphoid fever A"
+    }, {
+      "name": "A01.2",
+      "desc": "Paratyphoid fever B"
+    }, {
+      "name": "A01.3",
+      "desc": "Paratyphoid fever C"
+    }, {
+      "name": "A01.4",
+      "desc": "Paratyphoid fever, unspecified",
+      "inclusionTerm": {
+        "note": "Infection due to Salmonella paratyphi NOS"
+      }
+    }]
+  }, {
+    "name": "A02",
+    "desc": "Other salmonella infections",
+    "includes": {
+      "note": "infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi"
+    },
+    "diag": [{
+      "name": "A02.0",
+      "desc": "Salmonella enteritis",
+      "inclusionTerm": {
+        "note": "Salmonellosis"
+      }
+    }, {
+      "name": "A02.1",
+      "desc": "Salmonella sepsis"
+    }, {
+      "name": "A02.2",
+      "desc": "Localized salmonella infections",
+      "diag": [{
+        "name": "A02.20",
+        "desc": "Localized salmonella infection, unspecified"
+      }, {
+        "name": "A02.21",
+        "desc": "Salmonella meningitis"
+      }, {
+        "name": "A02.22",
+        "desc": "Salmonella pneumonia"
+      }, {
+        "name": "A02.23",
+        "desc": "Salmonella arthritis"
+      }, {
+        "name": "A02.24",
+        "desc": "Salmonella osteomyelitis"
+      }, {
+        "name": "A02.25",
+        "desc": "Salmonella pyelonephritis",
+        "inclusionTerm": {
+          "note": "Salmonella tubulo-interstitial nephropathy"
+        }
+      }, {
+        "name": "A02.29",
+        "desc": "Salmonella with other localized infection"
+      }]
+    }, {
+      "name": "A02.8",
+      "desc": "Other specified salmonella infections"
+    }, {
+      "name": "A02.9",
+      "desc": "Salmonella infection, unspecified"
+    }]
+  }, {
+    "name": "A03",
+    "desc": "Shigellosis",
+    "diag": [{
+      "name": "A03.0",
+      "desc": "Shigellosis due to Shigella dysenteriae",
+      "inclusionTerm": {
+        "note": "Group A shigellosis [Shiga-Kruse dysentery]"
+      }
+    }, {
+      "name": "A03.1",
+      "desc": "Shigellosis due to Shigella flexneri",
+      "inclusionTerm": {
+        "note": "Group B shigellosis"
+      }
+    }, {
+      "name": "A03.2",
+      "desc": "Shigellosis due to Shigella boydii",
+      "inclusionTerm": {
+        "note": "Group C shigellosis"
+      }
+    }, {
+      "name": "A03.3",
+      "desc": "Shigellosis due to Shigella sonnei",
+      "inclusionTerm": {
+        "note": "Group D shigellosis"
+      }
+    }, {
+      "name": "A03.8",
+      "desc": "Other shigellosis"
+    }, {
+      "name": "A03.9",
+      "desc": "Shigellosis, unspecified",
+      "inclusionTerm": {
+        "note": "Bacillary dysentery NOS"
+      }
+    }]
+  }, {
+    "name": "A04",
+    "desc": "Other bacterial intestinal infections",
+    "excludes1": {
+      "note": ["bacterial foodborne intoxications, NEC (A05.-)", "tuberculous enteritis (A18.32)"]
+    },
+    "diag": [{
+      "name": "A04.0",
+      "desc": "Enteropathogenic Escherichia coli infection"
+    }, {
+      "name": "A04.1",
+      "desc": "Enterotoxigenic Escherichia coli infection"
+    }, {
+      "name": "A04.2",
+      "desc": "Enteroinvasive Escherichia coli infection"
+    }, {
+      "name": "A04.3",
+      "desc": "Enterohemorrhagic Escherichia coli infection"
+    }, {
+      "name": "A04.4",
+      "desc": "Other intestinal Escherichia coli infections",
+      "inclusionTerm": {
+        "note": "Escherichia coli enteritis NOS"
+      }
+    }, {
+      "name": "A04.5",
+      "desc": "Campylobacter enteritis"
+    }, {
+      "name": "A04.6",
+      "desc": "Enteritis due to Yersinia enterocolitica",
+      "excludes1": {
+        "note": "extraintestinal yersiniosis (A28.2)"
+      }
+    }, {
+      "name": "A04.7",
+      "desc": "Enterocolitis due to Clostridium difficile",
+      "inclusionTerm": {
+        "note": ["Foodborne intoxication by Clostridium difficile", "Pseudomembraneous colitis"]
+      }
+    }, {
+      "name": "A04.8",
+      "desc": "Other specified bacterial intestinal infections"
+    }, {
+      "name": "A04.9",
+      "desc": "Bacterial intestinal infection, unspecified",
+      "inclusionTerm": {
+        "note": "Bacterial enteritis NOS"
+      }
+    }]
+  }, {
+    "name": "A05",
+    "desc": "Other bacterial foodborne intoxications, not elsewhere classified",
+    "excludes1": {
+      "note": ["Clostridium difficile foodborne intoxication and infection (A04.7)",
+        "Escherichia coli infection (A04.0-A04.4)", "listeriosis (A32.-)",
+        "salmonella foodborne intoxication and infection (A02.-)", "toxic effect of noxious foodstuffs (T61-T62)"
+      ]
+    },
+    "diag": [{
+      "name": "A05.0",
+      "desc": "Foodborne staphylococcal intoxication"
+    }, {
+      "name": "A05.1",
+      "desc": "Botulism food poisoning",
+      "inclusionTerm": {
+        "note": ["Botulism NOS", "Classical foodborne intoxication due to Clostridium botulinum"]
+      },
+      "excludes1": {
+        "note": ["infant botulism (A48.51)", "wound botulism (A48.52)"]
+      }
+    }, {
+      "name": "A05.2",
+      "desc": "Foodborne Clostridium perfringens [Clostridium welchii] intoxication",
+      "inclusionTerm": {
+        "note": ["Enteritis necroticans", "Pig-bel"]
+      }
+    }, {
+      "name": "A05.3",
+      "desc": "Foodborne Vibrio parahaemolyticus intoxication"
+    }, {
+      "name": "A05.4",
+      "desc": "Foodborne Bacillus cereus intoxication"
+    }, {
+      "name": "A05.5",
+      "desc": "Foodborne Vibrio vulnificus intoxication"
+    }, {
+      "name": "A05.8",
+      "desc": "Other specified bacterial foodborne intoxications"
+    }, {
+      "name": "A05.9",
+      "desc": "Bacterial foodborne intoxication, unspecified"
+    }]
+  }, {
+    "name": "A06",
+    "desc": "Amebiasis",
+    "includes": {
+      "note": "infection due to Entamoeba histolytica"
+    },
+    "excludes1": {
+      "note": "other protozoal intestinal diseases (A07.-)"
+    },
+    "excludes2": {
+      "note": ["acanthamebiasis (B60.1-)", "Naegleriasis (B60.2)"]
+    },
+    "diag": [{
+      "name": "A06.0",
+      "desc": "Acute amebic dysentery",
+      "inclusionTerm": {
+        "note": ["Acute amebiasis", "Intestinal amebiasis NOS"]
+      }
+    }, {
+      "name": "A06.1",
+      "desc": "Chronic intestinal amebiasis"
+    }, {
+      "name": "A06.2",
+      "desc": "Amebic nondysenteric colitis"
+    }, {
+      "name": "A06.3",
+      "desc": "Ameboma of intestine",
+      "inclusionTerm": {
+        "note": "Ameboma NOS"
+      }
+    }, {
+      "name": "A06.4",
+      "desc": "Amebic liver abscess",
+      "inclusionTerm": {
+        "note": "Hepatic amebiasis"
+      }
+    }, {
+      "name": "A06.5",
+      "desc": "Amebic lung abscess",
+      "inclusionTerm": {
+        "note": "Amebic abscess of lung (and liver)"
+      }
+    }, {
+      "name": "A06.6",
+      "desc": "Amebic brain abscess",
+      "inclusionTerm": {
+        "note": "Amebic abscess of brain (and liver) (and lung)"
+      }
+    }, {
+      "name": "A06.7",
+      "desc": "Cutaneous amebiasis"
+    }, {
+      "name": "A06.8",
+      "desc": "Amebic infection of other sites",
+      "diag": [{
+        "name": "A06.81",
+        "desc": "Amebic cystitis"
+      }, {
+        "name": "A06.82",
+        "desc": "Other amebic genitourinary infections",
+        "inclusionTerm": {
+          "note": ["Amebic balanitis", "Amebic vesiculitis", "Amebic vulvovaginitis"]
+        }
+      }, {
+        "name": "A06.89",
+        "desc": "Other amebic infections",
+        "inclusionTerm": {
+          "note": ["Amebic appendicitis", "Amebic splenic abscess"]
+        }
+      }]
+    }, {
+      "name": "A06.9",
+      "desc": "Amebiasis, unspecified"
+    }]
+  }, {
+    "name": "A07",
+    "desc": "Other protozoal intestinal diseases",
+    "diag": [{
+      "name": "A07.0",
+      "desc": "Balantidiasis",
+      "inclusionTerm": {
+        "note": "Balantidial dysentery"
+      }
+    }, {
+      "name": "A07.1",
+      "desc": "Giardiasis [lambliasis]"
+    }, {
+      "name": "A07.2",
+      "desc": "Cryptosporidiosis"
+    }, {
+      "name": "A07.3",
+      "desc": "Isosporiasis",
+      "inclusionTerm": {
+        "note": ["Infection due to Isospora belli and Isospora hominis", "Intestinal coccidiosis",
+          "Isosporosis"
+        ]
+      }
+    }, {
+      "name": "A07.4",
+      "desc": "Cyclosporiasis"
+    }, {
+      "name": "A07.8",
+      "desc": "Other specified protozoal intestinal diseases",
+      "inclusionTerm": {
+        "note": ["Intestinal microsporidiosis", "Intestinal trichomoniasis", "Sarcocystosis",
+          "Sarcosporidiosis"
+        ]
+      }
+    }, {
+      "name": "A07.9",
+      "desc": "Protozoal intestinal disease, unspecified",
+      "inclusionTerm": {
+        "note": ["Flagellate diarrhea", "Protozoal colitis", "Protozoal diarrhea", "Protozoal dysentery"]
+      }
+    }]
+  }, {
+    "name": "A08",
+    "desc": "Viral and other specified intestinal infections",
+    "excludes1": {
+      "note": "influenza with involvement of gastrointestinal tract (J09.X3, J10.2, J11.2)"
+    },
+    "diag": [{
+      "name": "A08.0",
+      "desc": "Rotaviral enteritis"
+    }, {
+      "name": "A08.1",
+      "desc": "Acute gastroenteropathy due to Norwalk agent and other small round viruses",
+      "diag": [{
+        "name": "A08.11",
+        "desc": "Acute gastroenteropathy due to Norwalk agent",
+        "inclusionTerm": {
+          "note": ["Acute gastroenteropathy due to Norovirus",
+            "Acute gastroenteropathy due to Norwalk-like agent"
+          ]
+        }
+      }, {
+        "name": "A08.19",
+        "desc": "Acute gastroenteropathy due to other small round viruses",
+        "inclusionTerm": {
+          "note": "Acute gastroenteropathy due to small round virus [SRV] NOS"
+        }
+      }]
+    }, {
+      "name": "A08.2",
+      "desc": "Adenoviral enteritis"
+    }, {
+      "name": "A08.3",
+      "desc": "Other viral enteritis",
+      "diag": [{
+        "name": "A08.31",
+        "desc": "Calicivirus enteritis"
+      }, {
+        "name": "A08.32",
+        "desc": "Astrovirus enteritis"
+      }, {
+        "name": "A08.39",
+        "desc": "Other viral enteritis",
+        "inclusionTerm": {
+          "note": ["Coxsackie virus enteritis", "Echovirus enteritis", "Enterovirus enteritis NEC",
+            "Torovirus enteritis"
+          ]
+        }
+      }]
+    }, {
+      "name": "A08.4",
+      "desc": "Viral intestinal infection, unspecified",
+      "inclusionTerm": {
+        "note": ["Viral enteritis NOS", "Viral gastroenteritis NOS", "Viral gastroenteropathy NOS"]
+      }
+    }, {
+      "name": "A08.8",
+      "desc": "Other specified intestinal infections"
+    }]
+  }, {
+    "name": "A09",
+    "desc": "Infectious gastroenteritis and colitis, unspecified",
+    "inclusionTerm": {
+      "note": ["Infectious colitis NOS", "Infectious enteritis NOS", "Infectious gastroenteritis NOS"]
+    },
+    "excludes1": {
+      "note": ["colitis NOS (K52.9)", "diarrhea NOS (R19.7)", "enteritis NOS (K52.9)",
+        "gastroenteritis NOS (K52.9)", "noninfective gastroenteritis and colitis, unspecified (K52.9)"
+      ]
+    }
+  }]
+}

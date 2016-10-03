@@ -1,0 +1,3190 @@
+[{
+  "i": "Z20.01",
+  "d": "Contact with and (suspected) exposure to intestinal infectious diseases due to Escherichia coli (E. coli)"
+}, {
+  "i": "Z20.09",
+  "d": "Contact with and (suspected) exposure to other intestinal infectious diseases"
+}, {
+  "i": "Z20.1",
+  "d": "Contact with and (suspected) exposure to tuberculosis"
+}, {
+  "i": "Z20.2",
+  "d": "Contact with and (suspected) exposure to infections with a predominantly sexual mode of transmission"
+}, {
+  "i": "Z20.3",
+  "d": "Contact with and (suspected) exposure to rabies"
+}, {
+  "i": "Z20.4",
+  "d": "Contact with and (suspected) exposure to rubella"
+}, {
+  "i": "Z20.5",
+  "d": "Contact with and (suspected) exposure to viral hepatitis"
+}, {
+  "i": "Z20.6",
+  "d": "Contact with and (suspected) exposure to human immunodeficiency virus [HIV]"
+}, {
+  "i": "Z20.7",
+  "d": "Contact with and (suspected) exposure to pediculosis, acariasis and other infestations"
+}, {
+  "i": "Z20.810",
+  "d": "Contact with and (suspected) exposure to anthrax"
+}, {
+  "i": "Z20.811",
+  "d": "Contact with and (suspected) exposure to meningococcus"
+}, {
+  "i": "Z20.818",
+  "d": "Contact with and (suspected) exposure to other bacterial communicable diseases"
+}, {
+  "i": "Z20.820",
+  "d": "Contact with and (suspected) exposure to varicella"
+}, {
+  "i": "Z20.828",
+  "d": "Contact with and (suspected) exposure to other viral communicable diseases"
+}, {
+  "i": "Z20.89",
+  "d": "Contact with and (suspected) exposure to other communicable diseases"
+}, {
+  "i": "Z20.9",
+  "d": "Contact with and (suspected) exposure to unspecified communicable disease"
+}, {
+  "i": "Z21",
+  "d": "Asymptomatic human immunodeficiency virus [HIV] infection status",
+  "n": ["HIV positive NOS"]
+}, {
+  "i": "Z22.0",
+  "d": "Carrier of typhoid"
+}, {
+  "i": "Z22.1",
+  "d": "Carrier of other intestinal infectious diseases"
+}, {
+  "i": "Z22.2",
+  "d": "Carrier of diphtheria"
+}, {
+  "i": "Z22.31",
+  "d": "Carrier of bacterial disease due to meningococci"
+}, {
+  "i": "Z22.321",
+  "d": "Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus",
+  "n": ["MSSA colonization"]
+}, {
+  "i": "Z22.322",
+  "d": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus",
+  "n": ["MRSA colonization"]
+}, {
+  "i": "Z22.330",
+  "d": "Carrier of Group B streptococcus"
+}, {
+  "i": "Z22.338",
+  "d": "Carrier of other streptococcus"
+}, {
+  "i": "Z22.39",
+  "d": "Carrier of other specified bacterial diseases"
+}, {
+  "i": "Z22.4",
+  "d": "Carrier of infections with a predominantly sexual mode of transmission"
+}, {
+  "i": "Z22.50",
+  "d": "Carrier of unspecified viral hepatitis"
+}, {
+  "i": "Z22.51",
+  "d": "Carrier of viral hepatitis B",
+  "n": ["Hepatitis B surface antigen [HBsAg] carrier"]
+}, {
+  "i": "Z22.52",
+  "d": "Carrier of viral hepatitis C"
+}, {
+  "i": "Z22.59",
+  "d": "Carrier of other viral hepatitis"
+}, {
+  "i": "Z22.6",
+  "d": "Carrier of human T-lymphotropic virus type-1 [HTLV-1] infection"
+}, {
+  "i": "Z22.8",
+  "d": "Carrier of other infectious diseases"
+}, {
+  "i": "Z22.9",
+  "d": "Carrier of infectious disease, unspecified"
+}, {
+  "i": "Z23",
+  "d": "Encounter for immunization"
+}, {
+  "i": "Z28.01",
+  "d": "Immunization not carried out because of acute illness of patient"
+}, {
+  "i": "Z28.02",
+  "d": "Immunization not carried out because of chronic illness or condition of patient"
+}, {
+  "i": "Z28.03",
+  "d": "Immunization not carried out because of immune compromised state of patient"
+}, {
+  "i": "Z28.04",
+  "d": "Immunization not carried out because of patient allergy to vaccine or component"
+}, {
+  "i": "Z28.09",
+  "d": "Immunization not carried out because of other contraindication"
+}, {
+  "i": "Z28.1",
+  "d": "Immunization not carried out because of patient decision for reasons of belief or group pressure",
+  "n": ["Immunization not carried out because of religious belief"]
+}, {
+  "i": "Z28.20",
+  "d": "Immunization not carried out because of patient decision for unspecified reason"
+}, {
+  "i": "Z28.21",
+  "d": "Immunization not carried out because of patient refusal"
+}, {
+  "i": "Z28.29",
+  "d": "Immunization not carried out because of patient decision for other reason"
+}, {
+  "i": "Z28.3",
+  "d": "Underimmunization status",
+  "n": ["Delinquent immunization status", "Lapsed immunization schedule status"]
+}, {
+  "i": "Z28.81",
+  "d": "Immunization not carried out due to patient having had the disease"
+}, {
+  "i": "Z28.82",
+  "d": "Immunization not carried out because of caregiver refusal",
+  "n": ["Immunization not carried out because of guardian refusal",
+    "Immunization not carried out because of parent refusal"
+  ]
+}, {
+  "i": "Z28.89",
+  "d": "Immunization not carried out for other reason"
+}, {
+  "i": "Z28.9",
+  "d": "Immunization not carried out for unspecified reason"
+}, {
+  "i": "Z30.011",
+  "d": "Encounter for initial prescription of contraceptive pills"
+}, {
+  "i": "Z30.012",
+  "d": "Encounter for prescription of emergency contraception",
+  "n": ["Encounter for postcoital contraception"]
+}, {
+  "i": "Z30.013",
+  "d": "Encounter for initial prescription of injectable contraceptive"
+}, {
+  "i": "Z30.014",
+  "d": "Encounter for initial prescription of intrauterine contraceptive device"
+}, {
+  "i": "Z30.018",
+  "d": "Encounter for initial prescription of other contraceptives"
+}, {
+  "i": "Z30.019",
+  "d": "Encounter for initial prescription of contraceptives, unspecified"
+}, {
+  "i": "Z30.02",
+  "d": "Counseling and instruction in natural family planning to avoid pregnancy"
+}, {
+  "i": "Z30.09",
+  "d": "Encounter for other general counseling and advice on contraception",
+  "n": ["Encounter for family planning advice NOS"]
+}, {
+  "i": "Z30.2",
+  "d": "Encounter for sterilization"
+}, {
+  "i": "Z30.40",
+  "d": "Encounter for surveillance of contraceptives, unspecified"
+}, {
+  "i": "Z30.41",
+  "d": "Encounter for surveillance of contraceptive pills",
+  "n": ["Encounter for repeat prescription for contraceptive pill"]
+}, {
+  "i": "Z30.42",
+  "d": "Encounter for surveillance of injectable contraceptive"
+}, {
+  "i": "Z30.430",
+  "d": "Encounter for insertion of intrauterine contraceptive device"
+}, {
+  "i": "Z30.431",
+  "d": "Encounter for routine checking of intrauterine contraceptive device"
+}, {
+  "i": "Z30.432",
+  "d": "Encounter for removal of intrauterine contraceptive device"
+}, {
+  "i": "Z30.433",
+  "d": "Encounter for removal and reinsertion of intrauterine contraceptive device",
+  "n": ["Encounter for replacement of intrauterine contraceptive device"]
+}, {
+  "i": "Z30.49",
+  "d": "Encounter for surveillance of other contraceptives"
+}, {
+  "i": "Z30.8",
+  "d": "Encounter for other contraceptive management",
+  "n": ["Encounter for postvasectomy sperm count", "Encounter for routine examination for contraceptive maintenance"]
+}, {
+  "i": "Z30.9",
+  "d": "Encounter for contraceptive management, unspecified"
+}, {
+  "i": "Z31.0",
+  "d": "Encounter for reversal of previous sterilization"
+}, {
+  "i": "Z31.41",
+  "d": "Encounter for fertility testing",
+  "n": ["Encounter for fallopian tube patency testing", "Encounter for sperm count for fertility testing"]
+}, {
+  "i": "Z31.42",
+  "d": "Aftercare following sterilization reversal",
+  "n": ["Sperm count following sterilization reversal"]
+}, {
+  "i": "Z31.430",
+  "d": "Encounter of female for testing for genetic disease carrier status for procreative management"
+}, {
+  "i": "Z31.438",
+  "d": "Encounter for other genetic testing of female for procreative management"
+}, {
+  "i": "Z31.440",
+  "d": "Encounter of male for testing for genetic disease carrier status for procreative management"
+}, {
+  "i": "Z31.441",
+  "d": "Encounter for testing of male partner of patient with recurrent pregnancy loss"
+}, {
+  "i": "Z31.448",
+  "d": "Encounter for other genetic testing of male for procreative management"
+}, {
+  "i": "Z31.49",
+  "d": "Encounter for other procreative investigation and testing"
+}, {
+  "i": "Z31.5",
+  "d": "Encounter for genetic counseling"
+}, {
+  "i": "Z31.61",
+  "d": "Procreative counseling and advice using natural family planning"
+}, {
+  "i": "Z31.62",
+  "d": "Encounter for fertility preservation counseling",
+  "n": ["Encounter for fertility preservation counseling prior to cancer therapy",
+    "Encounter for fertility preservation counseling prior to surgical removal of gonads"
+  ]
+}, {
+  "i": "Z31.69",
+  "d": "Encounter for other general counseling and advice on procreation"
+}, {
+  "i": "Z31.81",
+  "d": "Encounter for male factor infertility in female patient"
+}, {
+  "i": "Z31.82",
+  "d": "Encounter for Rh incompatibility status"
+}, {
+  "i": "Z31.83",
+  "d": "Encounter for assisted reproductive fertility procedure cycle",
+  "n": ["Patient undergoing in vitro fertilization cycle"]
+}, {
+  "i": "Z31.84",
+  "d": "Encounter for fertility preservation procedure",
+  "n": ["Encounter for fertility preservation procedure prior to cancer therapy",
+    "Encounter for fertility preservation procedure prior to surgical removal of gonads"
+  ]
+}, {
+  "i": "Z31.89",
+  "d": "Encounter for other procreative management"
+}, {
+  "i": "Z31.9",
+  "d": "Encounter for procreative management, unspecified"
+}, {
+  "i": "Z32.00",
+  "d": "Encounter for pregnancy test, result unknown",
+  "n": ["Encounter for pregnancy test NOS"]
+}, {
+  "i": "Z32.01",
+  "d": "Encounter for pregnancy test, result positive"
+}, {
+  "i": "Z32.02",
+  "d": "Encounter for pregnancy test, result negative"
+}, {
+  "i": "Z32.2",
+  "d": "Encounter for childbirth instruction"
+}, {
+  "i": "Z32.3",
+  "d": "Encounter for childcare instruction",
+  "n": ["Encounter for prenatal or postpartum childcare instruction"]
+}, {
+  "i": "Z33.1",
+  "d": "Pregnant state, incidental",
+  "n": ["Pregnant state NOS"]
+}, {
+  "i": "Z33.2",
+  "d": "Encounter for elective termination of pregnancy"
+}, {
+  "i": "Z34.00",
+  "d": "Encounter for supervision of normal first pregnancy, unspecified trimester"
+}, {
+  "i": "Z34.01",
+  "d": "Encounter for supervision of normal first pregnancy, first trimester"
+}, {
+  "i": "Z34.02",
+  "d": "Encounter for supervision of normal first pregnancy, second trimester"
+}, {
+  "i": "Z34.03",
+  "d": "Encounter for supervision of normal first pregnancy, third trimester"
+}, {
+  "i": "Z34.80",
+  "d": "Encounter for supervision of other normal pregnancy, unspecified trimester"
+}, {
+  "i": "Z34.81",
+  "d": "Encounter for supervision of other normal pregnancy, first trimester"
+}, {
+  "i": "Z34.82",
+  "d": "Encounter for supervision of other normal pregnancy, second trimester"
+}, {
+  "i": "Z34.83",
+  "d": "Encounter for supervision of other normal pregnancy, third trimester"
+}, {
+  "i": "Z34.90",
+  "d": "Encounter for supervision of normal pregnancy, unspecified, unspecified trimester"
+}, {
+  "i": "Z34.91",
+  "d": "Encounter for supervision of normal pregnancy, unspecified, first trimester"
+}, {
+  "i": "Z34.92",
+  "d": "Encounter for supervision of normal pregnancy, unspecified, second trimester"
+}, {
+  "i": "Z34.93",
+  "d": "Encounter for supervision of normal pregnancy, unspecified, third trimester"
+}, {
+  "i": "Z36",
+  "d": "Encounter for antenatal screening of mother"
+}, {
+  "i": "Z3A.00",
+  "d": "Weeks of gestation of pregnancy not specified"
+}, {
+  "i": "Z3A.01",
+  "d": "Less than 8 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.08",
+  "d": "8 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.09",
+  "d": "9 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.10",
+  "d": "10 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.11",
+  "d": "11 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.12",
+  "d": "12 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.13",
+  "d": "13 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.14",
+  "d": "14 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.15",
+  "d": "15 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.16",
+  "d": "16 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.17",
+  "d": "17 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.18",
+  "d": "18 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.19",
+  "d": "19 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.20",
+  "d": "20 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.21",
+  "d": "21 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.22",
+  "d": "22 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.23",
+  "d": "23 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.24",
+  "d": "24 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.25",
+  "d": "25 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.26",
+  "d": "26 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.27",
+  "d": "27 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.28",
+  "d": "28 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.29",
+  "d": "29 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.30",
+  "d": "30 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.31",
+  "d": "31 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.32",
+  "d": "32 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.33",
+  "d": "33 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.34",
+  "d": "34 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.35",
+  "d": "35 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.36",
+  "d": "36 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.37",
+  "d": "37 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.38",
+  "d": "38 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.39",
+  "d": "39 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.40",
+  "d": "40 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.41",
+  "d": "41 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.42",
+  "d": "42 weeks gestation of pregnancy"
+}, {
+  "i": "Z3A.49",
+  "d": "Greater than 42 weeks gestation of pregnancy"
+}, {
+  "i": "Z37.0",
+  "d": "Single live birth"
+}, {
+  "i": "Z37.1",
+  "d": "Single stillbirth"
+}, {
+  "i": "Z37.2",
+  "d": "Twins, both liveborn"
+}, {
+  "i": "Z37.3",
+  "d": "Twins, one liveborn and one stillborn"
+}, {
+  "i": "Z37.4",
+  "d": "Twins, both stillborn"
+}, {
+  "i": "Z37.50",
+  "d": "Multiple births, unspecified, all liveborn"
+}, {
+  "i": "Z37.51",
+  "d": "Triplets, all liveborn"
+}, {
+  "i": "Z37.52",
+  "d": "Quadruplets, all liveborn"
+}, {
+  "i": "Z37.53",
+  "d": "Quintuplets, all liveborn"
+}, {
+  "i": "Z37.54",
+  "d": "Sextuplets, all liveborn"
+}, {
+  "i": "Z37.59",
+  "d": "Other multiple births, all liveborn"
+}, {
+  "i": "Z37.60",
+  "d": "Multiple births, unspecified, some liveborn"
+}, {
+  "i": "Z37.61",
+  "d": "Triplets, some liveborn"
+}, {
+  "i": "Z37.62",
+  "d": "Quadruplets, some liveborn"
+}, {
+  "i": "Z37.63",
+  "d": "Quintuplets, some liveborn"
+}, {
+  "i": "Z37.64",
+  "d": "Sextuplets, some liveborn"
+}, {
+  "i": "Z37.69",
+  "d": "Other multiple births, some liveborn"
+}, {
+  "i": "Z37.7",
+  "d": "Other multiple births, all stillborn"
+}, {
+  "i": "Z37.9",
+  "d": "Outcome of delivery, unspecified",
+  "n": ["Multiple birth NOS", "Single birth NOS"]
+}, {
+  "i": "Z38.00",
+  "d": "Single liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.01",
+  "d": "Single liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.1",
+  "d": "Single liveborn infant, born outside hospital"
+}, {
+  "i": "Z38.2",
+  "d": "Single liveborn infant, unspecified as to place of birth",
+  "n": ["Single liveborn infant NOS"]
+}, {
+  "i": "Z38.30",
+  "d": "Twin liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.31",
+  "d": "Twin liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.4",
+  "d": "Twin liveborn infant, born outside hospital"
+}, {
+  "i": "Z38.5",
+  "d": "Twin liveborn infant, unspecified as to place of birth"
+}, {
+  "i": "Z38.61",
+  "d": "Triplet liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.62",
+  "d": "Triplet liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.63",
+  "d": "Quadruplet liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.64",
+  "d": "Quadruplet liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.65",
+  "d": "Quintuplet liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.66",
+  "d": "Quintuplet liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.68",
+  "d": "Other multiple liveborn infant, delivered vaginally"
+}, {
+  "i": "Z38.69",
+  "d": "Other multiple liveborn infant, delivered by cesarean"
+}, {
+  "i": "Z38.7",
+  "d": "Other multiple liveborn infant, born outside hospital"
+}, {
+  "i": "Z38.8",
+  "d": "Other multiple liveborn infant, unspecified as to place of birth"
+}, {
+  "i": "Z39.0",
+  "d": "Encounter for care and examination of mother immediately after delivery",
+  "n": ["Care and observation in uncomplicated cases when the delivery occurs outside a healthcare facility"]
+}, {
+  "i": "Z39.1",
+  "d": "Encounter for care and examination of lactating mother",
+  "n": ["Encounter for supervision of lactation"]
+}, {
+  "i": "Z39.2",
+  "d": "Encounter for routine postpartum follow-up"
+}, {
+  "i": "Z40.00",
+  "d": "Encounter for prophylactic removal of unspecified organ"
+}, {
+  "i": "Z40.01",
+  "d": "Encounter for prophylactic removal of breast"
+}, {
+  "i": "Z40.02",
+  "d": "Encounter for prophylactic removal of ovary"
+}, {
+  "i": "Z40.09",
+  "d": "Encounter for prophylactic removal of other organ"
+}, {
+  "i": "Z40.8",
+  "d": "Encounter for other prophylactic surgery"
+}, {
+  "i": "Z40.9",
+  "d": "Encounter for prophylactic surgery, unspecified"
+}, {
+  "i": "Z41.1",
+  "d": "Encounter for cosmetic surgery",
+  "n": ["Encounter for cosmetic breast implant", "Encounter for cosmetic procedure"]
+}, {
+  "i": "Z41.2",
+  "d": "Encounter for routine and ritual male circumcision"
+}, {
+  "i": "Z41.3",
+  "d": "Encounter for ear piercing"
+}, {
+  "i": "Z41.8",
+  "d": "Encounter for other procedures for purposes other than remedying health state"
+}, {
+  "i": "Z41.9",
+  "d": "Encounter for procedure for purposes other than remedying health state, unspecified"
+}, {
+  "i": "Z42.1",
+  "d": "Encounter for breast reconstruction following mastectomy"
+}, {
+  "i": "Z42.8",
+  "d": "Encounter for other plastic and reconstructive surgery following medical procedure or healed injury"
+}, {
+  "i": "Z43.0",
+  "d": "Encounter for attention to tracheostomy"
+}, {
+  "i": "Z43.1",
+  "d": "Encounter for attention to gastrostomy"
+}, {
+  "i": "Z43.2",
+  "d": "Encounter for attention to ileostomy"
+}, {
+  "i": "Z43.3",
+  "d": "Encounter for attention to colostomy"
+}, {
+  "i": "Z43.4",
+  "d": "Encounter for attention to other artificial openings of digestive tract"
+}, {
+  "i": "Z43.5",
+  "d": "Encounter for attention to cystostomy"
+}, {
+  "i": "Z43.6",
+  "d": "Encounter for attention to other artificial openings of urinary tract",
+  "n": ["Encounter for attention to nephrostomy", "Encounter for attention to ureterostomy",
+    "Encounter for attention to urethrostomy"
+  ]
+}, {
+  "i": "Z43.7",
+  "d": "Encounter for attention to artificial vagina"
+}, {
+  "i": "Z43.8",
+  "d": "Encounter for attention to other artificial openings"
+}, {
+  "i": "Z43.9",
+  "d": "Encounter for attention to unspecified artificial opening"
+}, {
+  "i": "Z44.001",
+  "d": "Encounter for fitting and adjustment of unspecified right artificial arm"
+}, {
+  "i": "Z44.002",
+  "d": "Encounter for fitting and adjustment of unspecified left artificial arm"
+}, {
+  "i": "Z44.009",
+  "d": "Encounter for fitting and adjustment of unspecified artificial arm, unspecified arm"
+}, {
+  "i": "Z44.011",
+  "d": "Encounter for fitting and adjustment of complete right artificial arm"
+}, {
+  "i": "Z44.012",
+  "d": "Encounter for fitting and adjustment of complete left artificial arm"
+}, {
+  "i": "Z44.019",
+  "d": "Encounter for fitting and adjustment of complete artificial arm, unspecified arm"
+}, {
+  "i": "Z44.021",
+  "d": "Encounter for fitting and adjustment of partial artificial right arm"
+}, {
+  "i": "Z44.022",
+  "d": "Encounter for fitting and adjustment of partial artificial left arm"
+}, {
+  "i": "Z44.029",
+  "d": "Encounter for fitting and adjustment of partial artificial arm, unspecified arm"
+}, {
+  "i": "Z44.101",
+  "d": "Encounter for fitting and adjustment of unspecified right artificial leg"
+}, {
+  "i": "Z44.102",
+  "d": "Encounter for fitting and adjustment of unspecified left artificial leg"
+}, {
+  "i": "Z44.109",
+  "d": "Encounter for fitting and adjustment of unspecified artificial leg, unspecified leg"
+}, {
+  "i": "Z44.111",
+  "d": "Encounter for fitting and adjustment of complete right artificial leg"
+}, {
+  "i": "Z44.112",
+  "d": "Encounter for fitting and adjustment of complete left artificial leg"
+}, {
+  "i": "Z44.119",
+  "d": "Encounter for fitting and adjustment of complete artificial leg, unspecified leg"
+}, {
+  "i": "Z44.121",
+  "d": "Encounter for fitting and adjustment of partial artificial right leg"
+}, {
+  "i": "Z44.122",
+  "d": "Encounter for fitting and adjustment of partial artificial left leg"
+}, {
+  "i": "Z44.129",
+  "d": "Encounter for fitting and adjustment of partial artificial leg, unspecified leg"
+}, {
+  "i": "Z44.20",
+  "d": "Encounter for fitting and adjustment of artificial eye, unspecified"
+}, {
+  "i": "Z44.21",
+  "d": "Encounter for fitting and adjustment of artificial right eye"
+}, {
+  "i": "Z44.22",
+  "d": "Encounter for fitting and adjustment of artificial left eye"
+}, {
+  "i": "Z44.30",
+  "d": "Encounter for fitting and adjustment of external breast prosthesis, unspecified breast"
+}, {
+  "i": "Z44.31",
+  "d": "Encounter for fitting and adjustment of external right breast prosthesis"
+}, {
+  "i": "Z44.32",
+  "d": "Encounter for fitting and adjustment of external left breast prosthesis"
+}, {
+  "i": "Z44.8",
+  "d": "Encounter for fitting and adjustment of other external prosthetic devices"
+}, {
+  "i": "Z44.9",
+  "d": "Encounter for fitting and adjustment of unspecified external prosthetic device"
+}, {
+  "i": "Z45.010",
+  "d": "Encounter for checking and testing of cardiac pacemaker pulse generator [battery]",
+  "n": ["Encounter for replacing cardiac pacemaker pulse generator [battery]"]
+}, {
+  "i": "Z45.018",
+  "d": "Encounter for adjustment and management of other part of cardiac pacemaker"
+}, {
+  "i": "Z45.02",
+  "d": "Encounter for adjustment and management of automatic implantable cardiac defibrillator",
+  "n": [
+    "Encounter for adjustment and management of automatic implantable cardiac defibrillator with synchronous cardiac pacemaker"
+  ]
+}, {
+  "i": "Z45.09",
+  "d": "Encounter for adjustment and management of other cardiac device"
+}, {
+  "i": "Z45.1",
+  "d": "Encounter for adjustment and management of infusion pump"
+}, {
+  "i": "Z45.2",
+  "d": "Encounter for adjustment and management of vascular access device",
+  "n": ["Encounter for adjustment and management of vascular catheters"]
+}, {
+  "i": "Z45.31",
+  "d": "Encounter for adjustment and management of implanted visual substitution device"
+}, {
+  "i": "Z45.320",
+  "d": "Encounter for adjustment and management of bone conduction device"
+}, {
+  "i": "Z45.321",
+  "d": "Encounter for adjustment and management of cochlear device"
+}, {
+  "i": "Z45.328",
+  "d": "Encounter for adjustment and management of other implanted hearing device"
+}, {
+  "i": "Z45.41",
+  "d": "Encounter for adjustment and management of cerebrospinal fluid drainage device",
+  "n": ["Encounter for adjustment and management of cerebral ventricular (communicating) shunt"]
+}, {
+  "i": "Z45.42",
+  "d": "Encounter for adjustment and management of neuropacemaker (brain) (peripheral nerve) (spinal cord)"
+}, {
+  "i": "Z45.49",
+  "d": "Encounter for adjustment and management of other implanted nervous system device"
+}, {
+  "i": "Z45.811",
+  "d": "Encounter for adjustment or removal of right breast implant"
+}, {
+  "i": "Z45.812",
+  "d": "Encounter for adjustment or removal of left breast implant"
+}, {
+  "i": "Z45.819",
+  "d": "Encounter for adjustment or removal of unspecified breast implant"
+}, {
+  "i": "Z45.82",
+  "d": "Encounter for adjustment or removal of myringotomy device (stent) (tube)"
+}, {
+  "i": "Z45.89",
+  "d": "Encounter for adjustment and management of other implanted devices"
+}, {
+  "i": "Z45.9",
+  "d": "Encounter for adjustment and management of unspecified implanted device"
+}, {
+  "i": "Z46.0",
+  "d": "Encounter for fitting and adjustment of spectacles and contact lenses"
+}, {
+  "i": "Z46.1",
+  "d": "Encounter for fitting and adjustment of hearing aid"
+}, {
+  "i": "Z46.2",
+  "d": "Encounter for fitting and adjustment of other devices related to nervous system and special senses"
+}, {
+  "i": "Z46.3",
+  "d": "Encounter for fitting and adjustment of dental prosthetic device",
+  "n": ["Encounter for fitting and adjustment of dentures"]
+}, {
+  "i": "Z46.4",
+  "d": "Encounter for fitting and adjustment of orthodontic device"
+}, {
+  "i": "Z46.51",
+  "d": "Encounter for fitting and adjustment of gastric lap band"
+}, {
+  "i": "Z46.59",
+  "d": "Encounter for fitting and adjustment of other gastrointestinal appliance and device"
+}, {
+  "i": "Z46.6",
+  "d": "Encounter for fitting and adjustment of urinary device"
+}, {
+  "i": "Z46.81",
+  "d": "Encounter for fitting and adjustment of insulin pump",
+  "n": ["Encounter for insulin pump instruction and training", "Encounter for insulin pump titration"]
+}, {
+  "i": "Z46.82",
+  "d": "Encounter for fitting and adjustment of non-vascular catheter"
+}, {
+  "i": "Z46.89",
+  "d": "Encounter for fitting and adjustment of other specified devices",
+  "n": ["Encounter for fitting and adjustment of wheelchair"]
+}, {
+  "i": "Z46.9",
+  "d": "Encounter for fitting and adjustment of unspecified device"
+}, {
+  "i": "Z47.1",
+  "d": "Aftercare following joint replacement surgery"
+}, {
+  "i": "Z47.2",
+  "d": "Encounter for removal of internal fixation device"
+}, {
+  "i": "Z47.31",
+  "d": "Aftercare following explantation of shoulder joint prosthesis"
+}, {
+  "i": "Z47.32",
+  "d": "Aftercare following explantation of hip joint prosthesis"
+}, {
+  "i": "Z47.33",
+  "d": "Aftercare following explantation of knee joint prosthesis"
+}, {
+  "i": "Z47.81",
+  "d": "Encounter for orthopedic aftercare following surgical amputation"
+}, {
+  "i": "Z47.82",
+  "d": "Encounter for orthopedic aftercare following scoliosis surgery"
+}, {
+  "i": "Z47.89",
+  "d": "Encounter for other orthopedic aftercare"
+}, {
+  "i": "Z48.00",
+  "d": "Encounter for change or removal of nonsurgical wound dressing",
+  "n": ["Encounter for change or removal of wound dressing NOS"]
+}, {
+  "i": "Z48.01",
+  "d": "Encounter for change or removal of surgical wound dressing"
+}, {
+  "i": "Z48.02",
+  "d": "Encounter for removal of sutures",
+  "n": ["Encounter for removal of staples"]
+}, {
+  "i": "Z48.03",
+  "d": "Encounter for change or removal of drains"
+}, {
+  "i": "Z48.1",
+  "d": "Encounter for planned postprocedural wound closure"
+}, {
+  "i": "Z48.21",
+  "d": "Encounter for aftercare following heart transplant"
+}, {
+  "i": "Z48.22",
+  "d": "Encounter for aftercare following kidney transplant"
+}, {
+  "i": "Z48.23",
+  "d": "Encounter for aftercare following liver transplant"
+}, {
+  "i": "Z48.24",
+  "d": "Encounter for aftercare following lung transplant"
+}, {
+  "i": "Z48.280",
+  "d": "Encounter for aftercare following heart-lung transplant"
+}, {
+  "i": "Z48.288",
+  "d": "Encounter for aftercare following multiple organ transplant"
+}, {
+  "i": "Z48.290",
+  "d": "Encounter for aftercare following bone marrow transplant"
+}, {
+  "i": "Z48.298",
+  "d": "Encounter for aftercare following other organ transplant"
+}, {
+  "i": "Z48.3",
+  "d": "Aftercare following surgery for neoplasm"
+}, {
+  "i": "Z48.810",
+  "d": "Encounter for surgical aftercare following surgery on the sense organs"
+}, {
+  "i": "Z48.811",
+  "d": "Encounter for surgical aftercare following surgery on the nervous system"
+}, {
+  "i": "Z48.812",
+  "d": "Encounter for surgical aftercare following surgery on the circulatory system"
+}, {
+  "i": "Z48.813",
+  "d": "Encounter for surgical aftercare following surgery on the respiratory system"
+}, {
+  "i": "Z48.814",
+  "d": "Encounter for surgical aftercare following surgery on the teeth or oral cavity"
+}, {
+  "i": "Z48.815",
+  "d": "Encounter for surgical aftercare following surgery on the digestive system"
+}, {
+  "i": "Z48.816",
+  "d": "Encounter for surgical aftercare following surgery on the genitourinary system"
+}, {
+  "i": "Z48.817",
+  "d": "Encounter for surgical aftercare following surgery on the skin and subcutaneous tissue"
+}, {
+  "i": "Z48.89",
+  "d": "Encounter for other specified surgical aftercare"
+}, {
+  "i": "Z49.01",
+  "d": "Encounter for fitting and adjustment of extracorporeal dialysis catheter",
+  "n": ["Removal or replacement of renal dialysis catheter", "Toilet or cleansing of renal dialysis catheter"]
+}, {
+  "i": "Z49.02",
+  "d": "Encounter for fitting and adjustment of peritoneal dialysis catheter"
+}, {
+  "i": "Z49.31",
+  "d": "Encounter for adequacy testing for hemodialysis"
+}, {
+  "i": "Z49.32",
+  "d": "Encounter for adequacy testing for peritoneal dialysis",
+  "n": ["Encounter for peritoneal equilibration test"]
+}, {
+  "i": "Z51.0",
+  "d": "Encounter for antineoplastic radiation therapy"
+}, {
+  "i": "Z51.11",
+  "d": "Encounter for antineoplastic chemotherapy"
+}, {
+  "i": "Z51.12",
+  "d": "Encounter for antineoplastic immunotherapy"
+}, {
+  "i": "Z51.5",
+  "d": "Encounter for palliative care"
+}, {
+  "i": "Z51.81",
+  "d": "Encounter for therapeutic drug level monitoring"
+}, {
+  "i": "Z51.89",
+  "d": "Encounter for other specified aftercare"
+}, {
+  "i": "Z52.000",
+  "d": "Unspecified donor, whole blood"
+}, {
+  "i": "Z52.001",
+  "d": "Unspecified donor, stem cells"
+}, {
+  "i": "Z52.008",
+  "d": "Unspecified donor, other blood"
+}, {
+  "i": "Z52.010",
+  "d": "Autologous donor, whole blood"
+}, {
+  "i": "Z52.011",
+  "d": "Autologous donor, stem cells"
+}, {
+  "i": "Z52.018",
+  "d": "Autologous donor, other blood"
+}, {
+  "i": "Z52.090",
+  "d": "Other blood donor, whole blood"
+}, {
+  "i": "Z52.091",
+  "d": "Other blood donor, stem cells"
+}, {
+  "i": "Z52.098",
+  "d": "Other blood donor, other blood"
+}, {
+  "i": "Z52.10",
+  "d": "Skin donor, unspecified"
+}, {
+  "i": "Z52.11",
+  "d": "Skin donor, autologous"
+}, {
+  "i": "Z52.19",
+  "d": "Skin donor, other"
+}, {
+  "i": "Z52.20",
+  "d": "Bone donor, unspecified"
+}, {
+  "i": "Z52.21",
+  "d": "Bone donor, autologous"
+}, {
+  "i": "Z52.29",
+  "d": "Bone donor, other"
+}, {
+  "i": "Z52.3",
+  "d": "Bone marrow donor"
+}, {
+  "i": "Z52.4",
+  "d": "Kidney donor"
+}, {
+  "i": "Z52.5",
+  "d": "Cornea donor"
+}, {
+  "i": "Z52.6",
+  "d": "Liver donor"
+}, {
+  "i": "Z52.810",
+  "d": "Egg (Oocyte) donor under age 35, anonymous recipient",
+  "n": ["Egg donor under age 35 NOS"]
+}, {
+  "i": "Z52.811",
+  "d": "Egg (Oocyte) donor under age 35, designated recipient"
+}, {
+  "i": "Z52.812",
+  "d": "Egg (Oocyte) donor age 35 and over, anonymous recipient",
+  "n": ["Egg donor age 35 and over NOS"]
+}, {
+  "i": "Z52.813",
+  "d": "Egg (Oocyte) donor age 35 and over, designated recipient"
+}, {
+  "i": "Z52.819",
+  "d": "Egg (Oocyte) donor, unspecified"
+}, {
+  "i": "Z52.89",
+  "d": "Donor of other specified organs or tissues"
+}, {
+  "i": "Z52.9",
+  "d": "Donor of unspecified organ or tissue",
+  "n": ["Donor NOS"]
+}, {
+  "i": "Z53.01",
+  "d": "Procedure and treatment not carried out due to patient smoking"
+}, {
+  "i": "Z53.09",
+  "d": "Procedure and treatment not carried out because of other contraindication"
+}, {
+  "i": "Z53.1",
+  "d": "Procedure and treatment not carried out because of patient's decision for reasons of belief and group pressure"
+}, {
+  "i": "Z53.20",
+  "d": "Procedure and treatment not carried out because of patient's decision for unspecified reasons"
+}, {
+  "i": "Z53.21",
+  "d": "Procedure and treatment not carried out due to patient leaving prior to being seen by health care provider"
+}, {
+  "i": "Z53.29",
+  "d": "Procedure and treatment not carried out because of patient's decision for other reasons"
+}, {
+  "i": "Z53.8",
+  "d": "Procedure and treatment not carried out for other reasons"
+}, {
+  "i": "Z53.9",
+  "d": "Procedure and treatment not carried out, unspecified reason"
+}, {
+  "i": "Z55.0",
+  "d": "Illiteracy and low-level literacy"
+}, {
+  "i": "Z55.1",
+  "d": "Schooling unavailable and unattainable"
+}, {
+  "i": "Z55.2",
+  "d": "Failed school examinations"
+}, {
+  "i": "Z55.3",
+  "d": "Underachievement in school"
+}, {
+  "i": "Z55.4",
+  "d": "Educational maladjustment and discord with teachers and classmates"
+}, {
+  "i": "Z55.8",
+  "d": "Other problems related to education and literacy",
+  "n": ["Problems related to inadequate teaching"]
+}, {
+  "i": "Z55.9",
+  "d": "Problems related to education and literacy, unspecified",
+  "n": ["Academic problems NOS"]
+}, {
+  "i": "Z56.0",
+  "d": "Unemployment, unspecified"
+}, {
+  "i": "Z56.1",
+  "d": "Change of job"
+}, {
+  "i": "Z56.2",
+  "d": "Threat of job loss"
+}, {
+  "i": "Z56.3",
+  "d": "Stressful work schedule"
+}, {
+  "i": "Z56.4",
+  "d": "Discord with boss and workmates"
+}, {
+  "i": "Z56.5",
+  "d": "Uncongenial work environment",
+  "n": ["Difficult conditions at work"]
+}, {
+  "i": "Z56.6",
+  "d": "Other physical and mental strain related to work"
+}, {
+  "i": "Z56.81",
+  "d": "Sexual harassment on the job"
+}, {
+  "i": "Z56.82",
+  "d": "Military deployment status",
+  "n": [
+    "Individual (civilian or military) currently deployed in theater or in support of military war, peacekeeping and humanitarian operations"
+  ]
+}, {
+  "i": "Z56.89",
+  "d": "Other problems related to employment"
+}, {
+  "i": "Z56.9",
+  "d": "Unspecified problems related to employment",
+  "n": ["Occupational problems NOS"]
+}, {
+  "i": "Z57.0",
+  "d": "Occupational exposure to noise"
+}, {
+  "i": "Z57.1",
+  "d": "Occupational exposure to radiation"
+}, {
+  "i": "Z57.2",
+  "d": "Occupational exposure to dust"
+}, {
+  "i": "Z57.31",
+  "d": "Occupational exposure to environmental tobacco smoke"
+}, {
+  "i": "Z57.39",
+  "d": "Occupational exposure to other air contaminants"
+}, {
+  "i": "Z57.4",
+  "d": "Occupational exposure to toxic agents in agriculture",
+  "n": ["Occupational exposure to solids, liquids, gases or vapors in agriculture"]
+}, {
+  "i": "Z57.5",
+  "d": "Occupational exposure to toxic agents in other industries",
+  "n": ["Occupational exposure to solids, liquids, gases or vapors in other industries"]
+}, {
+  "i": "Z57.6",
+  "d": "Occupational exposure to extreme temperature"
+}, {
+  "i": "Z57.7",
+  "d": "Occupational exposure to vibration"
+}, {
+  "i": "Z57.8",
+  "d": "Occupational exposure to other risk factors"
+}, {
+  "i": "Z57.9",
+  "d": "Occupational exposure to unspecified risk factor"
+}, {
+  "i": "Z59.0",
+  "d": "Homelessness"
+}, {
+  "i": "Z59.1",
+  "d": "Inadequate housing",
+  "n": ["Lack of heating", "Restriction of space", "Technical defects in home preventing adequate care",
+    "Unsatisfactory surroundings"
+  ]
+}, {
+  "i": "Z59.2",
+  "d": "Discord with neighbors, lodgers and landlord"
+}, {
+  "i": "Z59.3",
+  "d": "Problems related to living in residential institution",
+  "n": ["Boarding-school resident"]
+}, {
+  "i": "Z59.4",
+  "d": "Lack of adequate food and safe drinking water",
+  "n": ["Inadequate drinking water supply"]
+}, {
+  "i": "Z59.5",
+  "d": "Extreme poverty"
+}, {
+  "i": "Z59.6",
+  "d": "Low income"
+}, {
+  "i": "Z59.7",
+  "d": "Insufficient social insurance and welfare support"
+}, {
+  "i": "Z59.8",
+  "d": "Other problems related to housing and economic circumstances",
+  "n": ["Foreclosure on loan", "Isolated dwelling", "Problems with creditors"]
+}, {
+  "i": "Z59.9",
+  "d": "Problem related to housing and economic circumstances, unspecified"
+}, {
+  "i": "Z60.0",
+  "d": "Problems of adjustment to life-cycle transitions",
+  "n": ["Empty nest syndrome", "Phase of life problem", "Problem with adjustment to retirement [pension]"]
+}, {
+  "i": "Z60.2",
+  "d": "Problems related to living alone"
+}, {
+  "i": "Z60.3",
+  "d": "Acculturation difficulty",
+  "n": ["Problem with migration", "Problem with social transplantation"]
+}, {
+  "i": "Z60.4",
+  "d": "Social exclusion and rejection",
+  "n": [
+    "Exclusion and rejection on the basis of personal characteristics, such as unusual physical appearance, illness or behavior."
+  ]
+}, {
+  "i": "Z60.5",
+  "d": "Target of (perceived) adverse discrimination and persecution"
+}, {
+  "i": "Z60.8",
+  "d": "Other problems related to social environment"
+}, {
+  "i": "Z60.9",
+  "d": "Problem related to social environment, unspecified"
+}, {
+  "i": "Z62.0",
+  "d": "Inadequate parental supervision and control"
+}, {
+  "i": "Z62.1",
+  "d": "Parental overprotection"
+}, {
+  "i": "Z62.21",
+  "d": "Child in welfare custody",
+  "n": ["Child in care of non-parental family member", "Child in foster care"]
+}, {
+  "i": "Z62.22",
+  "d": "Institutional upbringing",
+  "n": ["Child living in orphanage or group home"]
+}, {
+  "i": "Z62.29",
+  "d": "Other upbringing away from parents"
+}, {
+  "i": "Z62.3",
+  "d": "Hostility towards and scapegoating of child"
+}, {
+  "i": "Z62.6",
+  "d": "Inappropriate (excessive) parental pressure"
+}, {
+  "i": "Z62.810",
+  "d": "Personal history of physical and sexual abuse in childhood"
+}, {
+  "i": "Z62.811",
+  "d": "Personal history of psychological abuse in childhood"
+}, {
+  "i": "Z62.812",
+  "d": "Personal history of neglect in childhood"
+}, {
+  "i": "Z62.819",
+  "d": "Personal history of unspecified abuse in childhood"
+}, {
+  "i": "Z62.820",
+  "d": "Parent-biological child conflict",
+  "n": ["Parent-child problem NOS"]
+}, {
+  "i": "Z62.821",
+  "d": "Parent-adopted child conflict"
+}, {
+  "i": "Z62.822",
+  "d": "Parent-foster child conflict"
+}, {
+  "i": "Z62.890",
+  "d": "Parent-child estrangement NEC"
+}, {
+  "i": "Z62.891",
+  "d": "Sibling rivalry"
+}, {
+  "i": "Z62.898",
+  "d": "Other specified problems related to upbringing"
+}, {
+  "i": "Z62.9",
+  "d": "Problem related to upbringing, unspecified"
+}, {
+  "i": "Z63.0",
+  "d": "Problems in relationship with spouse or partner"
+}, {
+  "i": "Z63.1",
+  "d": "Problems in relationship with in-laws"
+}, {
+  "i": "Z63.31",
+  "d": "Absence of family member due to military deployment",
+  "n": ["Individual or family affected by other family member being on military deployment"]
+}, {
+  "i": "Z63.32",
+  "d": "Other absence of family member"
+}, {
+  "i": "Z63.4",
+  "d": "Disappearance and death of family member",
+  "n": ["Assumed death of family member", "Bereavement"]
+}, {
+  "i": "Z63.5",
+  "d": "Disruption of family by separation and divorce",
+  "n": ["Marital estrangement"]
+}, {
+  "i": "Z63.6",
+  "d": "Dependent relative needing care at home"
+}, {
+  "i": "Z63.71",
+  "d": "Stress on family due to return of family member from military deployment",
+  "n": [
+    "Individual or family affected by family member having returned from military deployment (current or past conflict)"
+  ]
+}, {
+  "i": "Z63.72",
+  "d": "Alcoholism and drug addiction in family"
+}, {
+  "i": "Z63.79",
+  "d": "Other stressful life events affecting family and household",
+  "n": ["Anxiety (normal) about sick person in family", "Health problems within family",
+    "Ill or disturbed family member", "Isolated family"
+  ]
+}, {
+  "i": "Z63.8",
+  "d": "Other specified problems related to primary support group",
+  "n": ["Family discord NOS", "Family estrangement NOS", "High expressed emotional level within family",
+    "Inadequate family support NOS", "Inadequate or distorted communication within family"
+  ]
+}, {
+  "i": "Z63.9",
+  "d": "Problem related to primary support group, unspecified",
+  "n": ["Relationship disorder NOS"]
+}, {
+  "i": "Z64.0",
+  "d": "Problems related to unwanted pregnancy"
+}, {
+  "i": "Z64.1",
+  "d": "Problems related to multiparity"
+}, {
+  "i": "Z64.4",
+  "d": "Discord with counselors",
+  "n": ["Discord with probation officer", "Discord with social worker"]
+}, {
+  "i": "Z65.0",
+  "d": "Conviction in civil and criminal proceedings without imprisonment"
+}, {
+  "i": "Z65.1",
+  "d": "Imprisonment and other incarceration"
+}, {
+  "i": "Z65.2",
+  "d": "Problems related to release from prison"
+}, {
+  "i": "Z65.3",
+  "d": "Problems related to other legal circumstances",
+  "n": ["Arrest", "Child custody or support proceedings", "Litigation", "Prosecution"]
+}, {
+  "i": "Z65.4",
+  "d": "Victim of crime and terrorism",
+  "n": ["Victim of torture"]
+}, {
+  "i": "Z65.5",
+  "d": "Exposure to disaster, war and other hostilities"
+}, {
+  "i": "Z65.8",
+  "d": "Other specified problems related to psychosocial circumstances"
+}, {
+  "i": "Z65.9",
+  "d": "Problem related to unspecified psychosocial circumstances"
+}, {
+  "d": "Do not resuscitate status (Z66)"
+}, {
+  "d": "Blood type (Z67)"
+}, {
+  "d": "Body mass index [BMI] (Z68)"
+}, {
+  "i": "Z69.010",
+  "d": "Encounter for mental health services for victim of parental child abuse"
+}, {
+  "i": "Z69.011",
+  "d": "Encounter for mental health services for perpetrator of parental child abuse"
+}, {
+  "i": "Z69.020",
+  "d": "Encounter for mental health services for victim of non-parental child abuse"
+}, {
+  "i": "Z69.021",
+  "d": "Encounter for mental health services for perpetrator of non-parental child abuse"
+}, {
+  "i": "Z69.11",
+  "d": "Encounter for mental health services for victim of spousal or partner abuse"
+}, {
+  "i": "Z69.12",
+  "d": "Encounter for mental health services for perpetrator of spousal or partner abuse"
+}, {
+  "i": "Z69.81",
+  "d": "Encounter for mental health services for victim of other abuse",
+  "n": ["Encounter for rape victim counseling"]
+}, {
+  "i": "Z69.82",
+  "d": "Encounter for mental health services for perpetrator of other abuse"
+}, {
+  "i": "Z70.0",
+  "d": "Counseling related to sexual attitude"
+}, {
+  "i": "Z70.1",
+  "d": "Counseling related to patient's sexual behavior and orientation",
+  "n": ["Patient concerned regarding impotence", "Patient concerned regarding non-responsiveness",
+    "Patient concerned regarding promiscuity", "Patient concerned regarding sexual orientation"
+  ]
+}, {
+  "i": "Z70.2",
+  "d": "Counseling related to sexual behavior and orientation of third party",
+  "n": ["Advice sought regarding sexual behavior and orientation of child",
+    "Advice sought regarding sexual behavior and orientation of partner",
+    "Advice sought regarding sexual behavior and orientation of spouse"
+  ]
+}, {
+  "i": "Z70.3",
+  "d": "Counseling related to combined concerns regarding sexual attitude, behavior and orientation"
+}, {
+  "i": "Z70.8",
+  "d": "Other sex counseling",
+  "n": ["Encounter for sex education"]
+}, {
+  "i": "Z70.9",
+  "d": "Sex counseling, unspecified"
+}, {
+  "i": "Z71.0",
+  "d": "Person encountering health services to consult on behalf of another person",
+  "n": ["Person encountering health services to seek advice or treatment for non-attending third party"]
+}, {
+  "i": "Z71.1",
+  "d": "Person with feared health complaint in whom no diagnosis is made",
+  "n": ["Person encountering health services with feared condition which was not demonstrated",
+    "Person encountering health services in which problem was normal state", "'Worried well'"
+  ]
+}, {
+  "i": "Z71.2",
+  "d": "Person consulting for explanation of examination or test findings"
+}, {
+  "i": "Z71.3",
+  "d": "Dietary counseling and surveillance"
+}, {
+  "i": "Z71.41",
+  "d": "Alcohol abuse counseling and surveillance of alcoholic"
+}, {
+  "i": "Z71.42",
+  "d": "Counseling for family member of alcoholic",
+  "n": ["Counseling for significant other, partner, or friend of alcoholic"]
+}, {
+  "i": "Z71.51",
+  "d": "Drug abuse counseling and surveillance of drug abuser"
+}, {
+  "i": "Z71.52",
+  "d": "Counseling for family member of drug abuser",
+  "n": ["Counseling for significant other, partner, or friend of drug abuser"]
+}, {
+  "i": "Z71.6",
+  "d": "Tobacco abuse counseling"
+}, {
+  "i": "Z71.7",
+  "d": "Human immunodeficiency virus [HIV] counseling"
+}, {
+  "i": "Z71.81",
+  "d": "Spiritual or religious counseling"
+}, {
+  "i": "Z71.89",
+  "d": "Other specified counseling"
+}, {
+  "i": "Z71.9",
+  "d": "Counseling, unspecified",
+  "n": ["Encounter for medical advice NOS"]
+}, {
+  "i": "Z72.0",
+  "d": "Tobacco use",
+  "n": ["Tobacco use NOS"]
+}, {
+  "i": "Z72.3",
+  "d": "Lack of physical exercise"
+}, {
+  "i": "Z72.4",
+  "d": "Inappropriate diet and eating habits"
+}, {
+  "i": "Z72.51",
+  "d": "High risk heterosexual behavior"
+}, {
+  "i": "Z72.52",
+  "d": "High risk homosexual behavior"
+}, {
+  "i": "Z72.53",
+  "d": "High risk bisexual behavior"
+}, {
+  "i": "Z72.6",
+  "d": "Gambling and betting"
+}, {
+  "i": "Z72.810",
+  "d": "Child and adolescent antisocial behavior",
+  "n": ["Antisocial behavior (child) (adolescent) without manifest psychiatric disorder", "Delinquency NOS",
+    "Group delinquency", "Offenses in the context of gang membership", "Stealing in company with others",
+    "Truancy from school"
+  ]
+}, {
+  "i": "Z72.811",
+  "d": "Adult antisocial behavior",
+  "n": ["Adult antisocial behavior without manifest psychiatric disorder"]
+}, {
+  "i": "Z72.820",
+  "d": "Sleep deprivation",
+  "n": ["Lack of adequate sleep"]
+}, {
+  "i": "Z72.821",
+  "d": "Inadequate sleep hygiene",
+  "n": ["Bad sleep habits", "Irregular sleep habits", "Unhealthy sleep wake schedule"]
+}, {
+  "i": "Z72.89",
+  "d": "Other problems related to lifestyle",
+  "n": ["Self-damaging behavior"]
+}, {
+  "i": "Z72.9",
+  "d": "Problem related to lifestyle, unspecified"
+}, {
+  "i": "Z73.0",
+  "d": "Burn-out"
+}, {
+  "i": "Z73.1",
+  "d": "Type A behavior pattern"
+}, {
+  "i": "Z73.2",
+  "d": "Lack of relaxation and leisure"
+}, {
+  "i": "Z73.3",
+  "d": "Stress, not elsewhere classified",
+  "n": ["Physical and mental strain NOS"]
+}, {
+  "i": "Z73.4",
+  "d": "Inadequate social skills, not elsewhere classified"
+}, {
+  "i": "Z73.5",
+  "d": "Social role conflict, not elsewhere classified"
+}, {
+  "i": "Z73.6",
+  "d": "Limitation of activities due to disability"
+}, {
+  "i": "Z73.810",
+  "d": "Behavioral insomnia of childhood, sleep-onset association type"
+}, {
+  "i": "Z73.811",
+  "d": "Behavioral insomnia of childhood, limit setting type"
+}, {
+  "i": "Z73.812",
+  "d": "Behavioral insomnia of childhood, combined type"
+}, {
+  "i": "Z73.819",
+  "d": "Behavioral insomnia of childhood, unspecified type"
+}, {
+  "i": "Z73.82",
+  "d": "Dual sensory impairment"
+}, {
+  "i": "Z73.89",
+  "d": "Other problems related to life management difficulty"
+}, {
+  "i": "Z73.9",
+  "d": "Problem related to life management difficulty, unspecified"
+}, {
+  "i": "Z74.01",
+  "d": "Bed confinement status",
+  "n": ["Bedridden"]
+}, {
+  "i": "Z74.09",
+  "d": "Other reduced mobility",
+  "n": ["Chairridden", "Reduced mobility NOS"]
+}, {
+  "i": "Z74.1",
+  "d": "Need for assistance with personal care"
+}, {
+  "i": "Z74.2",
+  "d": "Need for assistance at home and no other household member able to render care"
+}, {
+  "i": "Z74.3",
+  "d": "Need for continuous supervision"
+}, {
+  "i": "Z74.8",
+  "d": "Other problems related to care provider dependency"
+}, {
+  "i": "Z74.9",
+  "d": "Problem related to care provider dependency, unspecified"
+}, {
+  "i": "Z75.0",
+  "d": "Medical services not available in home"
+}, {
+  "i": "Z75.1",
+  "d": "Person awaiting admission to adequate facility elsewhere"
+}, {
+  "i": "Z75.2",
+  "d": "Other waiting period for investigation and treatment"
+}, {
+  "i": "Z75.3",
+  "d": "Unavailability and inaccessibility of health-care facilities"
+}, {
+  "i": "Z75.4",
+  "d": "Unavailability and inaccessibility of other helping agencies"
+}, {
+  "i": "Z75.5",
+  "d": "Holiday relief care"
+}, {
+  "i": "Z75.8",
+  "d": "Other problems related to medical facilities and other health care"
+}, {
+  "i": "Z75.9",
+  "d": "Unspecified problem related to medical facilities and other health care"
+}, {
+  "i": "Z76.0",
+  "d": "Encounter for issue of repeat prescription",
+  "n": ["Encounter for issue of repeat prescription for appliance",
+    "Encounter for issue of repeat prescription for medicaments",
+    "Encounter for issue of repeat prescription for spectacles"
+  ]
+}, {
+  "i": "Z76.1",
+  "d": "Encounter for health supervision and care of foundling"
+}, {
+  "i": "Z76.2",
+  "d": "Encounter for health supervision and care of other healthy infant and child",
+  "n": [
+    "Encounter for medical or nursing care or supervision of healthy infant under circumstances such as adverse socioeconomic conditions at home",
+    "Encounter for medical or nursing care or supervision of healthy infant under circumstances such as awaiting foster or adoptive placement",
+    "Encounter for medical or nursing care or supervision of healthy infant under circumstances such as maternal illness",
+    "Encounter for medical or nursing care or supervision of healthy infant under circumstances such as number of children at home preventing or interfering with normal care"
+  ]
+}, {
+  "i": "Z76.3",
+  "d": "Healthy person accompanying sick person"
+}, {
+  "i": "Z76.4",
+  "d": "Other boarder to healthcare facility"
+}, {
+  "i": "Z76.5",
+  "d": "Malingerer [conscious simulation]",
+  "n": ["Person feigning illness (with obvious motivation)"]
+}, {
+  "i": "Z76.81",
+  "d": "Expectant parent(s) prebirth pediatrician visit",
+  "n": ["Pre-adoption pediatrician visit for adoptive parent(s)"]
+}, {
+  "i": "Z76.82",
+  "d": "Awaiting organ transplant status",
+  "n": ["Patient waiting for organ availability"]
+}, {
+  "i": "Z76.89",
+  "d": "Persons encountering health services in other specified circumstances",
+  "n": ["Persons encountering health services NOS"]
+}, {
+  "i": "Z77.010",
+  "d": "Contact with and (suspected) exposure to arsenic"
+}, {
+  "i": "Z77.011",
+  "d": "Contact with and (suspected) exposure to lead"
+}, {
+  "i": "Z77.012",
+  "d": "Contact with and (suspected) exposure to uranium"
+}, {
+  "i": "Z77.018",
+  "d": "Contact with and (suspected) exposure to other hazardous metals",
+  "n": ["Contact with and (suspected) exposure to chromium compounds",
+    "Contact with and (suspected) exposure to nickel dust"
+  ]
+}, {
+  "i": "Z77.020",
+  "d": "Contact with and (suspected) exposure to aromatic amines"
+}, {
+  "i": "Z77.021",
+  "d": "Contact with and (suspected) exposure to benzene"
+}, {
+  "i": "Z77.028",
+  "d": "Contact with and (suspected) exposure to other hazardous aromatic compounds",
+  "n": ["Aromatic dyes NOS", "Polycyclic aromatic hydrocarbons"]
+}, {
+  "i": "Z77.090",
+  "d": "Contact with and (suspected) exposure to asbestos"
+}, {
+  "i": "Z77.098",
+  "d": "Contact with and (suspected) exposure to other hazardous, chiefly nonmedicinal, chemicals",
+  "n": ["Dyes NOS"]
+}, {
+  "i": "Z77.110",
+  "d": "Contact with and (suspected) exposure to air pollution"
+}, {
+  "i": "Z77.111",
+  "d": "Contact with and (suspected) exposure to water pollution"
+}, {
+  "i": "Z77.112",
+  "d": "Contact with and (suspected) exposure to soil pollution"
+}, {
+  "i": "Z77.118",
+  "d": "Contact with and (suspected) exposure to other environmental pollution"
+}, {
+  "i": "Z77.120",
+  "d": "Contact with and (suspected) exposure to mold (toxic)"
+}, {
+  "i": "Z77.121",
+  "d": "Contact with and (suspected) exposure to harmful algae and algae toxins",
+  "n": ["Contact with and (suspected) exposure to (harmful) algae bloom NOS",
+    "Contact with and (suspected) exposure to blue-green algae bloom",
+    "Contact with and (suspected) exposure to brown tide",
+    "Contact with and (suspected) exposure to cyanobacteria bloom",
+    "Contact with and (suspected) exposure to Florida red tide",
+    "Contact with and (suspected) exposure to pfiesteria piscicida",
+    "Contact with and (suspected) exposure to red tide"
+  ]
+}, {
+  "i": "Z77.122",
+  "d": "Contact with and (suspected) exposure to noise"
+}, {
+  "i": "Z77.123",
+  "d": "Contact with and (suspected) exposure to radon and other naturally occuring radiation"
+}, {
+  "i": "Z77.128",
+  "d": "Contact with and (suspected) exposure to other hazards in the physical environment"
+}, {
+  "i": "Z77.21",
+  "d": "Contact with and (suspected) exposure to potentially hazardous body fluids"
+}, {
+  "i": "Z77.22",
+  "d": "Contact with and (suspected) exposure to environmental tobacco smoke (acute) (chronic)",
+  "n": ["Exposure to second hand tobacco smoke (acute) (chronic)", "Passive smoking (acute) (chronic)"]
+}, {
+  "i": "Z77.29",
+  "d": "Contact with and (suspected ) exposure to other hazardous substances"
+}, {
+  "i": "Z77.9",
+  "d": "Other contact with and (suspected) exposures hazardous to health"
+}, {
+  "i": "Z78.0",
+  "d": "Asymptomatic menopausal state",
+  "n": ["Menopausal state NOS", "Postmenopausal status NOS"]
+}, {
+  "i": "Z78.1",
+  "d": "Physical restraint status"
+}, {
+  "i": "Z78.9",
+  "d": "Other specified health status"
+}, {
+  "i": "Z79.01",
+  "d": "Long term (current) use of anticoagulants"
+}, {
+  "i": "Z79.02",
+  "d": "Long term (current) use of antithrombotics/antiplatelets"
+}, {
+  "i": "Z79.1",
+  "d": "Long term (current) use of non-steroidal anti-inflammatories (NSAID)"
+}, {
+  "i": "Z79.2",
+  "d": "Long term (current) use of antibiotics"
+}, {
+  "i": "Z79.3",
+  "d": "Long term (current) use of hormonal contraceptives",
+  "n": ["Long term (current) use of birth control pill or patch"]
+}, {
+  "i": "Z79.4",
+  "d": "Long term (current) use of insulin"
+}, {
+  "i": "Z79.51",
+  "d": "Long term (current) use of inhaled steroids"
+}, {
+  "i": "Z79.52",
+  "d": "Long term (current) use of systemic steroids"
+}, {
+  "i": "Z79.810",
+  "d": "Long term (current) use of selective estrogen receptor modulators (SERMs)",
+  "n": ["Long term (current) use of raloxifene (Evista)", "Long term (current) use of tamoxifen (Nolvadex)",
+    "Long term (current) use of  toremifene (Fareston)"
+  ]
+}, {
+  "i": "Z79.811",
+  "d": "Long term (current) use of aromatase inhibitors",
+  "n": ["Long term (current) use of anastrozole (Arimidex)", "Long term (current) use of exemestane (Aromasin)",
+    "Long term (current) use of letrozole (Femara)"
+  ]
+}, {
+  "i": "Z79.818",
+  "d": "Long term (current) use of other agents affecting estrogen receptors and estrogen levels",
+  "n": ["Long term (current) use of estrogen receptor downregulators",
+    "Long term (current) use of fulvestrant (Faslodex)",
+    "Long term (current) use of gonadotropin-releasing hormone (GnRH) agonist",
+    "Long term (current) use of goserelin acetate (Zoladex)",
+    "Long term (current) use of leuprolide acetate (leuprorelin) (Lupron)",
+    "Long term (current) use of megestrol acetate (Megace)"
+  ]
+}, {
+  "i": "Z79.82",
+  "d": "Long term (current) use of aspirin"
+}, {
+  "i": "Z79.83",
+  "d": "Long term (current) use of bisphosphonates"
+}, {
+  "i": "Z79.890",
+  "d": "Hormone replacement therapy (postmenopausal)"
+}, {
+  "i": "Z79.891",
+  "d": "Long term (current) use of opiate analgesic",
+  "n": ["Long term (current) use of methadone for pain management"]
+}, {
+  "i": "Z79.899",
+  "d": "Other long term (current) drug therapy"
+}, {
+  "i": "Z80.0",
+  "d": "Family history of malignant neoplasm of digestive organs",
+  "n": ["Conditions classifiable to C15-C26"]
+}, {
+  "i": "Z80.1",
+  "d": "Family history of malignant neoplasm of trachea, bronchus and lung",
+  "n": ["Conditions classifiable to C33-C34"]
+}, {
+  "i": "Z80.2",
+  "d": "Family history of malignant neoplasm of other respiratory and intrathoracic organs",
+  "n": ["Conditions classifiable to C30-C32, C37-C39"]
+}, {
+  "i": "Z80.3",
+  "d": "Family history of malignant neoplasm of breast",
+  "n": ["Conditions classifiable to C50.-"]
+}, {
+  "i": "Z80.41",
+  "d": "Family history of malignant neoplasm of ovary"
+}, {
+  "i": "Z80.42",
+  "d": "Family history of malignant neoplasm of prostate"
+}, {
+  "i": "Z80.43",
+  "d": "Family history of malignant neoplasm of testis"
+}, {
+  "i": "Z80.49",
+  "d": "Family history of malignant neoplasm of other genital organs"
+}, {
+  "i": "Z80.51",
+  "d": "Family history of malignant neoplasm of kidney"
+}, {
+  "i": "Z80.52",
+  "d": "Family history of malignant neoplasm of bladder"
+}, {
+  "i": "Z80.59",
+  "d": "Family history of malignant neoplasm of other urinary tract organ"
+}, {
+  "i": "Z80.6",
+  "d": "Family history of leukemia",
+  "n": ["Conditions classifiable to C91-C95"]
+}, {
+  "i": "Z80.7",
+  "d": "Family history of other malignant neoplasms of lymphoid, hematopoietic and related tissues",
+  "n": ["Conditions classifiable to C81-C90, C96.-"]
+}, {
+  "i": "Z80.8",
+  "d": "Family history of malignant neoplasm of other organs or systems",
+  "n": ["Conditions classifiable to C00-C14, C40-C49, C69-C79"]
+}, {
+  "i": "Z80.9",
+  "d": "Family history of malignant neoplasm, unspecified",
+  "n": ["Conditions classifiable to C80.1"]
+}, {
+  "i": "Z81.0",
+  "d": "Family history of intellectual disabilities",
+  "n": ["Conditions classifiable to F70-F79"]
+}, {
+  "i": "Z81.1",
+  "d": "Family history of alcohol abuse and dependence",
+  "n": ["Conditions classifiable to F10.-"]
+}, {
+  "i": "Z81.2",
+  "d": "Family history of tobacco abuse and dependence",
+  "n": ["Conditions classifiable to F17.-"]
+}, {
+  "i": "Z81.3",
+  "d": "Family history of other psychoactive substance abuse and dependence",
+  "n": ["Conditions classifiable to F11-F16, F18-F19"]
+}, {
+  "i": "Z81.4",
+  "d": "Family history of other substance abuse and dependence",
+  "n": ["Conditions classifiable to F55"]
+}, {
+  "i": "Z81.8",
+  "d": "Family history of other mental and behavioral disorders",
+  "n": ["Conditions classifiable elsewhere in F01-F99"]
+}, {
+  "i": "Z82.0",
+  "d": "Family history of epilepsy and other diseases of the nervous system",
+  "n": ["Conditions classifiable to G00-G99"]
+}, {
+  "i": "Z82.1",
+  "d": "Family history of blindness and visual loss",
+  "n": ["Conditions classifiable to H54.-"]
+}, {
+  "i": "Z82.2",
+  "d": "Family history of deafness and hearing loss",
+  "n": ["Conditions classifiable to H90-H91"]
+}, {
+  "i": "Z82.3",
+  "d": "Family history of stroke",
+  "n": ["Conditions classifiable to I60-I64"]
+}, {
+  "i": "Z82.41",
+  "d": "Family history of sudden cardiac death"
+}, {
+  "i": "Z82.49",
+  "d": "Family history of ischemic heart disease and other diseases of the circulatory system"
+}, {
+  "i": "Z82.5",
+  "d": "Family history of asthma and other chronic lower respiratory diseases",
+  "n": ["Conditions classifiable to J40-J47"]
+}, {
+  "i": "Z82.61",
+  "d": "Family history of arthritis"
+}, {
+  "i": "Z82.62",
+  "d": "Family history of osteoporosis"
+}, {
+  "i": "Z82.69",
+  "d": "Family history of other diseases of the musculoskeletal system and connective tissue"
+}, {
+  "i": "Z82.71",
+  "d": "Family history of polycystic kidney"
+}, {
+  "i": "Z82.79",
+  "d": "Family history of other congenital malformations, deformations and chromosomal abnormalities"
+}, {
+  "i": "Z82.8",
+  "d": "Family history of other disabilities and chronic diseases leading to disablement, not elsewhere classified"
+}, {
+  "i": "Z83.0",
+  "d": "Family history of human immunodeficiency virus [HIV] disease",
+  "n": ["Conditions classifiable to B20"]
+}, {
+  "i": "Z83.1",
+  "d": "Family history of other infectious and parasitic diseases",
+  "n": ["Conditions classifiable to A00-B19, B25-B94, B99"]
+}, {
+  "i": "Z83.2",
+  "d": "Family history of diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism",
+  "n": ["Conditions classifiable to D50-D89"]
+}, {
+  "i": "Z83.3",
+  "d": "Family history of diabetes mellitus",
+  "n": ["Conditions classifiable to E08-E13"]
+}, {
+  "i": "Z83.41",
+  "d": "Family history of multiple endocrine neoplasia [MEN] syndrome"
+}, {
+  "i": "Z83.49",
+  "d": "Family history of other endocrine, nutritional and metabolic diseases"
+}, {
+  "i": "Z83.511",
+  "d": "Family history of glaucoma"
+}, {
+  "i": "Z83.518",
+  "d": "Family history of other specified eye disorder"
+}, {
+  "i": "Z83.52",
+  "d": "Family history of ear disorders",
+  "n": ["Conditions classifiable to H60-H83, H92-H95"]
+}, {
+  "i": "Z83.6",
+  "d": "Family history of other diseases of the respiratory system",
+  "n": ["Conditions classifiable to J00-J39, J60-J99"]
+}, {
+  "i": "Z83.71",
+  "d": "Family history of colonic polyps"
+}, {
+  "i": "Z83.79",
+  "d": "Family history of other diseases of the digestive system"
+}, {
+  "i": "Z84.0",
+  "d": "Family history of diseases of the skin and subcutaneous tissue",
+  "n": ["Conditions classifiable to L00-L99"]
+}, {
+  "i": "Z84.1",
+  "d": "Family history of disorders of kidney and ureter",
+  "n": ["Conditions classifiable to N00-N29"]
+}, {
+  "i": "Z84.2",
+  "d": "Family history of other diseases of the genitourinary system",
+  "n": ["Conditions classifiable to N30-N99"]
+}, {
+  "i": "Z84.3",
+  "d": "Family history of consanguinity"
+}, {
+  "i": "Z84.81",
+  "d": "Family history of carrier of genetic disease"
+}, {
+  "i": "Z84.89",
+  "d": "Family history of other specified conditions"
+}, {
+  "i": "Z85.00",
+  "d": "Personal history of malignant neoplasm of unspecified digestive organ"
+}, {
+  "i": "Z85.01",
+  "d": "Personal history of malignant neoplasm of esophagus",
+  "n": ["Conditions classifiable to C15"]
+}, {
+  "i": "Z85.020",
+  "d": "Personal history of malignant carcinoid tumor of stomach",
+  "n": ["Conditions classifiable to C7A.092"]
+}, {
+  "i": "Z85.028",
+  "d": "Personal history of other malignant neoplasm of stomach",
+  "n": ["Conditions classifiable to C16"]
+}, {
+  "i": "Z85.030",
+  "d": "Personal history of malignant carcinoid tumor of large intestine",
+  "n": ["Conditions classifiable to C7A.022-C7A.025, C7A.029"]
+}, {
+  "i": "Z85.038",
+  "d": "Personal history of other malignant neoplasm of large intestine",
+  "n": ["Conditions classifiable to C18"]
+}, {
+  "i": "Z85.040",
+  "d": "Personal history of malignant carcinoid tumor of rectum",
+  "n": ["Conditions classifiable to C7A.026"]
+}, {
+  "i": "Z85.048",
+  "d": "Personal history of other malignant neoplasm of rectum, rectosigmoid junction, and anus",
+  "n": ["Conditions classifiable to C19-C21"]
+}, {
+  "i": "Z85.05",
+  "d": "Personal history of malignant neoplasm of liver",
+  "n": ["Conditions classifiable to C22"]
+}, {
+  "i": "Z85.060",
+  "d": "Personal history of malignant carcinoid tumor of small intestine",
+  "n": ["Conditions classifiable to C7A.01-"]
+}, {
+  "i": "Z85.068",
+  "d": "Personal history of other malignant neoplasm of small intestine",
+  "n": ["Conditions classifiable to C17"]
+}, {
+  "i": "Z85.07",
+  "d": "Personal history of malignant neoplasm of pancreas",
+  "n": ["Conditions classifiable to C25"]
+}, {
+  "i": "Z85.09",
+  "d": "Personal history of malignant neoplasm of other digestive organs"
+}, {
+  "i": "Z85.110",
+  "d": "Personal history of malignant carcinoid tumor of bronchus and lung",
+  "n": ["Conditions classifiable to C7A.090"]
+}, {
+  "i": "Z85.118",
+  "d": "Personal history of other malignant neoplasm of bronchus and lung",
+  "n": ["Conditions classifiable to C34"]
+}, {
+  "i": "Z85.12",
+  "d": "Personal history of malignant neoplasm of trachea",
+  "n": ["Conditions classifiable to C33"]
+}, {
+  "i": "Z85.20",
+  "d": "Personal history of malignant neoplasm of unspecified respiratory organ"
+}, {
+  "i": "Z85.21",
+  "d": "Personal history of malignant neoplasm of larynx",
+  "n": ["Conditions classifiable to C32"]
+}, {
+  "i": "Z85.22",
+  "d": "Personal history of malignant neoplasm of nasal cavities, middle ear, and accessory sinuses",
+  "n": ["Conditions classifiable to C30-C31"]
+}, {
+  "i": "Z85.230",
+  "d": "Personal history of malignant carcinoid tumor of thymus",
+  "n": ["Conditions classifiable to C7A.091"]
+}, {
+  "i": "Z85.238",
+  "d": "Personal history of other malignant neoplasm of thymus",
+  "n": ["Conditions classifiable to C37"]
+}, {
+  "i": "Z85.29",
+  "d": "Personal history of malignant neoplasm of other respiratory and intrathoracic organs"
+}, {
+  "i": "Z85.3",
+  "d": "Personal history of malignant neoplasm of breast",
+  "n": ["Conditions classifiable to C50.-"]
+}, {
+  "i": "Z85.40",
+  "d": "Personal history of malignant neoplasm of unspecified female genital organ"
+}, {
+  "i": "Z85.41",
+  "d": "Personal history of malignant neoplasm of cervix uteri"
+}, {
+  "i": "Z85.42",
+  "d": "Personal history of malignant neoplasm of other parts of uterus"
+}, {
+  "i": "Z85.43",
+  "d": "Personal history of malignant neoplasm of ovary"
+}, {
+  "i": "Z85.44",
+  "d": "Personal history of malignant neoplasm of other female genital organs"
+}, {
+  "i": "Z85.45",
+  "d": "Personal history of malignant neoplasm of unspecified male genital organ"
+}, {
+  "i": "Z85.46",
+  "d": "Personal history of malignant neoplasm of prostate"
+}, {
+  "i": "Z85.47",
+  "d": "Personal history of malignant neoplasm of testis"
+}, {
+  "i": "Z85.48",
+  "d": "Personal history of malignant neoplasm of epididymis"
+}, {
+  "i": "Z85.49",
+  "d": "Personal history of malignant neoplasm of other male genital organs"
+}, {
+  "i": "Z85.50",
+  "d": "Personal history of malignant neoplasm of unspecified urinary tract organ"
+}, {
+  "i": "Z85.51",
+  "d": "Personal history of malignant neoplasm of bladder"
+}, {
+  "i": "Z85.520",
+  "d": "Personal history of malignant carcinoid tumor of kidney",
+  "n": ["Conditions classifiable to C7A.093"]
+}, {
+  "i": "Z85.528",
+  "d": "Personal history of other malignant neoplasm of kidney",
+  "n": ["Conditions classifiable to C64"]
+}, {
+  "i": "Z85.53",
+  "d": "Personal history of malignant neoplasm of renal pelvis"
+}, {
+  "i": "Z85.54",
+  "d": "Personal history of malignant neoplasm of ureter"
+}, {
+  "i": "Z85.59",
+  "d": "Personal history of malignant neoplasm of other urinary tract organ"
+}, {
+  "i": "Z85.6",
+  "d": "Personal history of leukemia",
+  "n": ["Conditions classifiable to C91-C95"]
+}, {
+  "i": "Z85.71",
+  "d": "Personal history of Hodgkin lymphoma",
+  "n": ["Conditions classifiable to C81"]
+}, {
+  "i": "Z85.72",
+  "d": "Personal history of non-Hodgkin lymphomas",
+  "n": ["Conditions classifiable to C82-C85"]
+}, {
+  "i": "Z85.79",
+  "d": "Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues",
+  "n": ["Conditions classifiable to C88-C90, C96"]
+}, {
+  "i": "Z85.810",
+  "d": "Personal history of malignant neoplasm of tongue"
+}, {
+  "i": "Z85.818",
+  "d": "Personal history of malignant neoplasm of other sites of lip, oral cavity, and pharynx"
+}, {
+  "i": "Z85.819",
+  "d": "Personal history of malignant neoplasm of unspecified site of lip, oral cavity, and pharynx"
+}, {
+  "i": "Z85.820",
+  "d": "Personal history of malignant melanoma of skin",
+  "n": ["Conditions classifiable to C43"]
+}, {
+  "i": "Z85.821",
+  "d": "Personal history of Merkel cell carcinoma",
+  "n": ["Conditions classifiable to C4A"]
+}, {
+  "i": "Z85.828",
+  "d": "Personal history of other malignant neoplasm of skin",
+  "n": ["Conditions classifiable to C44"]
+}, {
+  "i": "Z85.830",
+  "d": "Personal history of malignant neoplasm of bone"
+}, {
+  "i": "Z85.831",
+  "d": "Personal history of malignant neoplasm of soft tissue"
+}, {
+  "i": "Z85.840",
+  "d": "Personal history of malignant neoplasm of eye"
+}, {
+  "i": "Z85.841",
+  "d": "Personal history of malignant neoplasm of brain"
+}, {
+  "i": "Z85.848",
+  "d": "Personal history of malignant neoplasm of other parts of nervous tissue"
+}, {
+  "i": "Z85.850",
+  "d": "Personal history of malignant neoplasm of thyroid"
+}, {
+  "i": "Z85.858",
+  "d": "Personal history of malignant neoplasm of other endocrine glands"
+}, {
+  "i": "Z85.89",
+  "d": "Personal history of malignant neoplasm of other organs and systems"
+}, {
+  "i": "Z85.9",
+  "d": "Personal history of malignant neoplasm, unspecified",
+  "n": ["Conditions classifiable to C7A.00, C80.1"]
+}, {
+  "i": "Z86.000",
+  "d": "Personal history of in-situ neoplasm of breast"
+}, {
+  "i": "Z86.001",
+  "d": "Personal history of in-situ neoplasm of cervix uteri"
+}, {
+  "i": "Z86.008",
+  "d": "Personal history of in-situ neoplasm of other site"
+}, {
+  "i": "Z86.010",
+  "d": "Personal history of colonic polyps"
+}, {
+  "i": "Z86.011",
+  "d": "Personal history of benign neoplasm of the brain"
+}, {
+  "i": "Z86.012",
+  "d": "Personal history of benign carcinoid tumor"
+}, {
+  "i": "Z86.018",
+  "d": "Personal history of other benign neoplasm"
+}, {
+  "i": "Z86.03",
+  "d": "Personal history of neoplasm of uncertain behavior"
+}, {
+  "i": "Z86.11",
+  "d": "Personal history of tuberculosis"
+}, {
+  "i": "Z86.12",
+  "d": "Personal history of poliomyelitis"
+}, {
+  "i": "Z86.13",
+  "d": "Personal history of malaria"
+}, {
+  "i": "Z86.14",
+  "d": "Personal history of Methicillin resistant Staphylococcus aureus infection",
+  "n": ["Personal history of MRSA infection"]
+}, {
+  "i": "Z86.19",
+  "d": "Personal history of other infectious and parasitic diseases"
+}, {
+  "i": "Z86.2",
+  "d": "Personal history of diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism",
+  "n": ["Conditions classifiable to D50-D89"]
+}, {
+  "i": "Z86.31",
+  "d": "Personal history of diabetic foot ulcer"
+}, {
+  "i": "Z86.32",
+  "d": "Personal history of gestational diabetes",
+  "n": ["Personal history of conditions classifiable to O24.4-"]
+}, {
+  "i": "Z86.39",
+  "d": "Personal history of other endocrine, nutritional and metabolic disease"
+}, {
+  "i": "Z86.51",
+  "d": "Personal history of combat and operational stress reaction"
+}, {
+  "i": "Z86.59",
+  "d": "Personal history of other mental and behavioral disorders"
+}, {
+  "i": "Z86.61",
+  "d": "Personal history of infections of the central nervous system",
+  "n": ["Personal history of encephalitis", "Personal history of meningitis"]
+}, {
+  "i": "Z86.69",
+  "d": "Personal history of other diseases of the nervous system and sense organs"
+}, {
+  "i": "Z86.711",
+  "d": "Personal history of pulmonary embolism"
+}, {
+  "i": "Z86.718",
+  "d": "Personal history of other venous thrombosis and embolism"
+}, {
+  "i": "Z86.72",
+  "d": "Personal history of thrombophlebitis"
+}, {
+  "i": "Z86.73",
+  "d": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+  "n": ["Personal history of prolonged reversible ischemic neurological deficit (PRIND)",
+    "Personal history of stroke NOS without residual deficits"
+  ]
+}, {
+  "i": "Z86.74",
+  "d": "Personal history of sudden cardiac arrest",
+  "n": ["Personal history of sudden cardiac death successfully resuscitated"]
+}, {
+  "i": "Z86.79",
+  "d": "Personal history of other diseases of the circulatory system"
+}, {
+  "i": "Z87.01",
+  "d": "Personal history of pneumonia (recurrent)"
+}, {
+  "i": "Z87.09",
+  "d": "Personal history of other diseases of the respiratory system"
+}, {
+  "i": "Z87.11",
+  "d": "Personal history of peptic ulcer disease"
+}, {
+  "i": "Z87.19",
+  "d": "Personal history of other diseases of the digestive system"
+}, {
+  "i": "Z87.2",
+  "d": "Personal history of diseases of the skin and subcutaneous tissue",
+  "n": ["Conditions classifiable to L00-L99"]
+}, {
+  "i": "Z87.310",
+  "d": "Personal history of (healed) osteoporosis fracture",
+  "n": ["Personal history of (healed) fragility fracture",
+    "Personal history of (healed) collapsed vertebra due to osteoporosis"
+  ]
+}, {
+  "i": "Z87.311",
+  "d": "Personal history of (healed) other pathological fracture",
+  "n": ["Personal history of (healed) collapsed vertebra NOS"]
+}, {
+  "i": "Z87.312",
+  "d": "Personal history of (healed) stress fracture",
+  "n": ["Personal history of (healed) fatigue fracture"]
+}, {
+  "i": "Z87.39",
+  "d": "Personal history of other diseases of the musculoskeletal system and connective tissue"
+}, {
+  "i": "Z87.410",
+  "d": "Personal history of cervical dysplasia"
+}, {
+  "i": "Z87.411",
+  "d": "Personal history of vaginal dysplasia"
+}, {
+  "i": "Z87.412",
+  "d": "Personal history of vulvar dysplasia"
+}, {
+  "i": "Z87.42",
+  "d": "Personal history of other diseases of the female genital tract"
+}, {
+  "i": "Z87.430",
+  "d": "Personal history of prostatic dysplasia"
+}, {
+  "i": "Z87.438",
+  "d": "Personal history of other diseases of male genital organs"
+}, {
+  "i": "Z87.440",
+  "d": "Personal history of urinary (tract) infections"
+}, {
+  "i": "Z87.441",
+  "d": "Personal history of nephrotic syndrome"
+}, {
+  "i": "Z87.442",
+  "d": "Personal history of urinary calculi",
+  "n": ["Personal history of kidney stones"]
+}, {
+  "i": "Z87.448",
+  "d": "Personal history of other diseases of urinary system"
+}, {
+  "i": "Z87.51",
+  "d": "Personal history of pre-term labor"
+}, {
+  "i": "Z87.59",
+  "d": "Personal history of other complications of pregnancy, childbirth and the puerperium",
+  "n": ["Personal history of trophoblastic disease"]
+}, {
+  "i": "Z87.710",
+  "d": "Personal history of (corrected) hypospadias"
+}, {
+  "i": "Z87.718",
+  "d": "Personal history of other specified (corrected) congenital malformations of genitourinary system"
+}, {
+  "i": "Z87.720",
+  "d": "Personal history of (corrected) congenital malformations of eye"
+}, {
+  "i": "Z87.721",
+  "d": "Personal history of (corrected) congenital malformations of ear"
+}, {
+  "i": "Z87.728",
+  "d": "Personal history of other specified (corrected) congenital malformations of nervous system and sense organs"
+}, {
+  "i": "Z87.730",
+  "d": "Personal history of (corrected) cleft lip and palate"
+}, {
+  "i": "Z87.738",
+  "d": "Personal history of other specified (corrected) congenital malformations of digestive system"
+}, {
+  "i": "Z87.74",
+  "d": "Personal history of (corrected) congenital malformations of heart and circulatory system"
+}, {
+  "i": "Z87.75",
+  "d": "Personal history of (corrected) congenital malformations of respiratory system"
+}, {
+  "i": "Z87.76",
+  "d": "Personal history of (corrected) congenital malformations of integument, limbs and musculoskeletal system"
+}, {
+  "i": "Z87.790",
+  "d": "Personal history of (corrected) congenital malformations of face and neck"
+}, {
+  "i": "Z87.798",
+  "d": "Personal history of other (corrected) congenital malformations"
+}, {
+  "i": "Z87.81",
+  "d": "Personal history of (healed) traumatic fracture"
+}, {
+  "i": "Z87.820",
+  "d": "Personal history of traumatic brain injury"
+}, {
+  "i": "Z87.821",
+  "d": "Personal history of retained foreign body fully removed"
+}, {
+  "i": "Z87.828",
+  "d": "Personal history of other (healed) physical injury and trauma"
+}, {
+  "i": "Z87.890",
+  "d": "Personal history of sex reassignment"
+}, {
+  "i": "Z87.891",
+  "d": "Personal history of nicotine dependence"
+}, {
+  "i": "Z87.892",
+  "d": "Personal history of anaphylaxis"
+}, {
+  "i": "Z87.898",
+  "d": "Personal history of other specified conditions"
+}, {
+  "i": "Z88.0",
+  "d": "Allergy status to penicillin"
+}, {
+  "i": "Z88.1",
+  "d": "Allergy status to other antibiotic agents status"
+}, {
+  "i": "Z88.2",
+  "d": "Allergy status to sulfonamides status"
+}, {
+  "i": "Z88.3",
+  "d": "Allergy status to other anti-infective agents status"
+}, {
+  "i": "Z88.4",
+  "d": "Allergy status to anesthetic agent status"
+}, {
+  "i": "Z88.5",
+  "d": "Allergy status to narcotic agent status"
+}, {
+  "i": "Z88.6",
+  "d": "Allergy status to analgesic agent status"
+}, {
+  "i": "Z88.7",
+  "d": "Allergy status to serum and vaccine status"
+}, {
+  "i": "Z88.8",
+  "d": "Allergy status to other drugs, medicaments and biological substances status"
+}, {
+  "i": "Z88.9",
+  "d": "Allergy status to unspecified drugs, medicaments and biological substances status"
+}, {
+  "i": "Z89.011",
+  "d": "Acquired absence of right thumb"
+}, {
+  "i": "Z89.012",
+  "d": "Acquired absence of left thumb"
+}, {
+  "i": "Z89.019",
+  "d": "Acquired absence of unspecified thumb"
+}, {
+  "i": "Z89.021",
+  "d": "Acquired absence of right finger(s)"
+}, {
+  "i": "Z89.022",
+  "d": "Acquired absence of left finger(s)"
+}, {
+  "i": "Z89.029",
+  "d": "Acquired absence of unspecified finger(s)"
+}, {
+  "i": "Z89.111",
+  "d": "Acquired absence of right hand"
+}, {
+  "i": "Z89.112",
+  "d": "Acquired absence of left hand"
+}, {
+  "i": "Z89.119",
+  "d": "Acquired absence of unspecified hand"
+}, {
+  "i": "Z89.121",
+  "d": "Acquired absence of right wrist"
+}, {
+  "i": "Z89.122",
+  "d": "Acquired absence of left wrist"
+}, {
+  "i": "Z89.129",
+  "d": "Acquired absence of unspecified wrist"
+}, {
+  "i": "Z89.201",
+  "d": "Acquired absence of right upper limb, unspecified level"
+}, {
+  "i": "Z89.202",
+  "d": "Acquired absence of left upper limb, unspecified level"
+}, {
+  "i": "Z89.209",
+  "d": "Acquired absence of unspecified upper limb, unspecified level",
+  "n": ["Acquired absence of arm NOS"]
+}, {
+  "i": "Z89.211",
+  "d": "Acquired absence of right upper limb below elbow"
+}, {
+  "i": "Z89.212",
+  "d": "Acquired absence of left upper limb below elbow"
+}, {
+  "i": "Z89.219",
+  "d": "Acquired absence of unspecified upper limb below elbow"
+}, {
+  "i": "Z89.221",
+  "d": "Acquired absence of right upper limb above elbow"
+}, {
+  "i": "Z89.222",
+  "d": "Acquired absence of left upper limb above elbow"
+}, {
+  "i": "Z89.229",
+  "d": "Acquired absence of unspecified upper limb above elbow"
+}, {
+  "i": "Z89.231",
+  "d": "Acquired absence of right shoulder"
+}, {
+  "i": "Z89.232",
+  "d": "Acquired absence of left shoulder"
+}, {
+  "i": "Z89.239",
+  "d": "Acquired absence of unspecified shoulder"
+}, {
+  "i": "Z89.411",
+  "d": "Acquired absence of right great toe"
+}, {
+  "i": "Z89.412",
+  "d": "Acquired absence of left great toe"
+}, {
+  "i": "Z89.419",
+  "d": "Acquired absence of unspecified great toe"
+}, {
+  "i": "Z89.421",
+  "d": "Acquired absence of other right toe(s)"
+}, {
+  "i": "Z89.422",
+  "d": "Acquired absence of other left toe(s)"
+}, {
+  "i": "Z89.429",
+  "d": "Acquired absence of other toe(s), unspecified side"
+}, {
+  "i": "Z89.431",
+  "d": "Acquired absence of right foot"
+}, {
+  "i": "Z89.432",
+  "d": "Acquired absence of left foot"
+}, {
+  "i": "Z89.439",
+  "d": "Acquired absence of unspecified foot"
+}, {
+  "i": "Z89.441",
+  "d": "Acquired absence of right ankle"
+}, {
+  "i": "Z89.442",
+  "d": "Acquired absence of left ankle"
+}, {
+  "i": "Z89.449",
+  "d": "Acquired absence of unspecified ankle"
+}, {
+  "i": "Z89.511",
+  "d": "Acquired absence of right leg below knee"
+}, {
+  "i": "Z89.512",
+  "d": "Acquired absence of left leg below knee"
+}, {
+  "i": "Z89.519",
+  "d": "Acquired absence of unspecified leg below knee"
+}, {
+  "i": "Z89.521",
+  "d": "Acquired absence of right knee"
+}, {
+  "i": "Z89.522",
+  "d": "Acquired absence of left knee"
+}, {
+  "i": "Z89.529",
+  "d": "Acquired absence of unspecified knee"
+}, {
+  "i": "Z89.611",
+  "d": "Acquired absence of right leg above knee"
+}, {
+  "i": "Z89.612",
+  "d": "Acquired absence of left leg above knee"
+}, {
+  "i": "Z89.619",
+  "d": "Acquired absence of unspecified leg above knee"
+}, {
+  "i": "Z89.621",
+  "d": "Acquired absence of right hip joint"
+}, {
+  "i": "Z89.622",
+  "d": "Acquired absence of left hip joint"
+}, {
+  "i": "Z89.629",
+  "d": "Acquired absence of unspecified hip joint"
+}, {
+  "i": "Z89.9",
+  "d": "Acquired absence of limb, unspecified"
+}, {
+  "i": "Z90.01",
+  "d": "Acquired absence of eye"
+}, {
+  "i": "Z90.02",
+  "d": "Acquired absence of larynx"
+}, {
+  "i": "Z90.09",
+  "d": "Acquired absence of other part of head and neck",
+  "n": ["Acquired absence of nose"]
+}, {
+  "i": "Z90.10",
+  "d": "Acquired absence of unspecified breast and nipple"
+}, {
+  "i": "Z90.11",
+  "d": "Acquired absence of right breast and nipple"
+}, {
+  "i": "Z90.12",
+  "d": "Acquired absence of left breast and nipple"
+}, {
+  "i": "Z90.13",
+  "d": "Acquired absence of bilateral breasts and nipples"
+}, {
+  "i": "Z90.2",
+  "d": "Acquired absence of lung [part of]"
+}, {
+  "i": "Z90.3",
+  "d": "Acquired absence of stomach [part of]"
+}, {
+  "i": "Z90.410",
+  "d": "Acquired total absence of pancreas",
+  "n": ["Acquired absence of pancreas NOS"]
+}, {
+  "i": "Z90.411",
+  "d": "Acquired partial absence of pancreas"
+}, {
+  "i": "Z90.49",
+  "d": "Acquired absence of other specified parts of digestive tract"
+}, {
+  "i": "Z90.5",
+  "d": "Acquired absence of kidney"
+}, {
+  "i": "Z90.6",
+  "d": "Acquired absence of other parts of urinary tract",
+  "n": ["Acquired absence of bladder"]
+}, {
+  "i": "Z90.710",
+  "d": "Acquired absence of both cervix and uterus",
+  "n": ["Acquired absence of uterus NOS", "Status post total hysterectomy"]
+}, {
+  "i": "Z90.711",
+  "d": "Acquired absence of uterus with remaining cervical stump",
+  "n": ["Status post partial hysterectomy with remaining cervical stump"]
+}, {
+  "i": "Z90.712",
+  "d": "Acquired absence of cervix with remaining uterus"
+}, {
+  "i": "Z90.721",
+  "d": "Acquired absence of ovaries, unilateral"
+}, {
+  "i": "Z90.722",
+  "d": "Acquired absence of ovaries, bilateral"
+}, {
+  "i": "Z90.79",
+  "d": "Acquired absence of other genital organ(s)"
+}, {
+  "i": "Z90.81",
+  "d": "Acquired absence of spleen"
+}, {
+  "i": "Z90.89",
+  "d": "Acquired absence of other organs"
+}, {
+  "i": "Z91.010",
+  "d": "Allergy to peanuts"
+}, {
+  "i": "Z91.011",
+  "d": "Allergy to milk products"
+}, {
+  "i": "Z91.012",
+  "d": "Allergy to eggs"
+}, {
+  "i": "Z91.013",
+  "d": "Allergy to seafood",
+  "n": ["Allergy to shellfish", "Allergy to octopus or squid ink"]
+}, {
+  "i": "Z91.018",
+  "d": "Allergy to other foods",
+  "n": ["Allergy to nuts other than peanuts"]
+}, {
+  "i": "Z91.02",
+  "d": "Food additives allergy status"
+}, {
+  "i": "Z91.030",
+  "d": "Bee allergy status"
+}, {
+  "i": "Z91.038",
+  "d": "Other insect allergy status"
+}, {
+  "i": "Z91.040",
+  "d": "Latex allergy status",
+  "n": ["Latex sensitivity status"]
+}, {
+  "i": "Z91.041",
+  "d": "Radiographic dye allergy status",
+  "n": ["Allergy status to contrast media used for diagnostic X-ray procedure"]
+}, {
+  "i": "Z91.048",
+  "d": "Other nonmedicinal substance allergy status"
+}, {
+  "i": "Z91.09",
+  "d": "Other allergy status, other than to drugs and biological substances"
+}, {
+  "i": "Z91.11",
+  "d": "Patient's noncompliance with dietary regimen"
+}, {
+  "i": "Z91.120",
+  "d": "Patient's intentional underdosing of medication regimen due to financial hardship"
+}, {
+  "i": "Z91.128",
+  "d": "Patient's intentional underdosing of medication regimen for other reason"
+}, {
+  "i": "Z91.130",
+  "d": "Patient's unintentional underdosing of medication regimen due to age-related debility"
+}, {
+  "i": "Z91.138",
+  "d": "Patient's unintentional underdosing of medication regimen for other reason"
+}, {
+  "i": "Z91.14",
+  "d": "Patient's other noncompliance with medication regimen",
+  "n": ["Patient's underdosing of medication NOS"]
+}, {
+  "i": "Z91.15",
+  "d": "Patient's noncompliance with renal dialysis"
+}, {
+  "i": "Z91.19",
+  "d": "Patient's noncompliance with other medical treatment and regimen"
+}, {
+  "i": "Z91.410",
+  "d": "Personal history of adult physical and sexual abuse"
+}, {
+  "i": "Z91.411",
+  "d": "Personal history of adult psychological abuse"
+}, {
+  "i": "Z91.412",
+  "d": "Personal history of adult neglect"
+}, {
+  "i": "Z91.419",
+  "d": "Personal history of unspecified adult abuse"
+}, {
+  "i": "Z91.49",
+  "d": "Other personal history of psychological trauma, not elsewhere classified"
+}, {
+  "i": "Z91.5",
+  "d": "Personal history of self-harm",
+  "n": ["Personal history of parasuicide", "Personal history of self-poisoning",
+    "Personal history of suicide attempt"
+  ]
+}, {
+  "i": "Z91.81",
+  "d": "History of falling",
+  "n": ["At risk for falling"]
+}, {
+  "i": "Z91.82",
+  "d": "Personal history of military deployment",
+  "n": [
+    "Individual (civilian or military) with past history of military war, peacekeeping and humanitarian deployment (current or past conflict)",
+    "Returned from military deployment"
+  ]
+}, {
+  "i": "Z91.83",
+  "d": "Wandering in diseases classified elsewhere"
+}, {
+  "i": "Z91.89",
+  "d": "Other specified personal risk factors, not elsewhere classified"
+}, {
+  "i": "Z92.0",
+  "d": "Personal history of contraception"
+}, {
+  "i": "Z92.21",
+  "d": "Personal history of antineoplastic chemotherapy"
+}, {
+  "i": "Z92.22",
+  "d": "Personal history of monoclonal drug therapy"
+}, {
+  "i": "Z92.23",
+  "d": "Personal history of estrogen therapy"
+}, {
+  "i": "Z92.240",
+  "d": "Personal history of inhaled steroid therapy"
+}, {
+  "i": "Z92.241",
+  "d": "Personal history of systemic steroid therapy",
+  "n": ["Personal history of steroid therapy NOS"]
+}, {
+  "i": "Z92.25",
+  "d": "Personal history of immunosupression therapy"
+}, {
+  "i": "Z92.29",
+  "d": "Personal history of other drug therapy"
+}, {
+  "i": "Z92.3",
+  "d": "Personal history of irradiation",
+  "n": ["Personal history of exposure to therapeutic radiation"]
+}, {
+  "i": "Z92.81",
+  "d": "Personal history of extracorporeal membrane oxygenation (ECMO)"
+}, {
+  "i": "Z92.82",
+  "d": "Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility"
+}, {
+  "i": "Z92.83",
+  "d": "Personal history of failed moderate sedation",
+  "n": ["Personal history of failed conscious sedation"]
+}, {
+  "i": "Z92.89",
+  "d": "Personal history of other medical treatment"
+}, {
+  "i": "Z93.0",
+  "d": "Tracheostomy status"
+}, {
+  "i": "Z93.1",
+  "d": "Gastrostomy status"
+}, {
+  "i": "Z93.2",
+  "d": "Ileostomy status"
+}, {
+  "i": "Z93.3",
+  "d": "Colostomy status"
+}, {
+  "i": "Z93.4",
+  "d": "Other artificial openings of gastrointestinal tract status"
+}, {
+  "i": "Z93.50",
+  "d": "Unspecified cystostomy status"
+}, {
+  "i": "Z93.51",
+  "d": "Cutaneous-vesicostomy status"
+}, {
+  "i": "Z93.52",
+  "d": "Appendico-vesicostomy status"
+}, {
+  "i": "Z93.59",
+  "d": "Other cystostomy status"
+}, {
+  "i": "Z93.6",
+  "d": "Other artificial openings of urinary tract status",
+  "n": ["Nephrostomy status", "Ureterostomy status", "Urethrostomy status"]
+}, {
+  "i": "Z93.8",
+  "d": "Other artificial opening status"
+}, {
+  "i": "Z93.9",
+  "d": "Artificial opening status, unspecified"
+}, {
+  "i": "Z94.0",
+  "d": "Kidney transplant status"
+}, {
+  "i": "Z94.1",
+  "d": "Heart transplant status"
+}, {
+  "i": "Z94.2",
+  "d": "Lung transplant status"
+}, {
+  "i": "Z94.3",
+  "d": "Heart and lungs transplant status"
+}, {
+  "i": "Z94.4",
+  "d": "Liver transplant status"
+}, {
+  "i": "Z94.5",
+  "d": "Skin transplant status",
+  "n": ["Autogenous skin transplant status"]
+}, {
+  "i": "Z94.6",
+  "d": "Bone transplant status"
+}, {
+  "i": "Z94.7",
+  "d": "Corneal transplant status"
+}, {
+  "i": "Z94.81",
+  "d": "Bone marrow transplant status"
+}, {
+  "i": "Z94.82",
+  "d": "Intestine transplant status"
+}, {
+  "i": "Z94.83",
+  "d": "Pancreas transplant status"
+}, {
+  "i": "Z94.84",
+  "d": "Stem cells transplant status"
+}, {
+  "i": "Z94.89",
+  "d": "Other transplanted organ and tissue status"
+}, {
+  "i": "Z94.9",
+  "d": "Transplanted organ and tissue status, unspecified"
+}, {
+  "i": "Z95.0",
+  "d": "Presence of cardiac pacemaker"
+}, {
+  "i": "Z95.1",
+  "d": "Presence of aortocoronary bypass graft"
+}, {
+  "i": "Z95.2",
+  "d": "Presence of prosthetic heart valve",
+  "n": ["Presence of heart valve NOS"]
+}, {
+  "i": "Z95.3",
+  "d": "Presence of xenogenic heart valve"
+}, {
+  "i": "Z95.4",
+  "d": "Presence of other heart-valve replacement"
+}, {
+  "i": "Z95.5",
+  "d": "Presence of coronary angioplasty implant and graft"
+}, {
+  "i": "Z95.810",
+  "d": "Presence of automatic (implantable) cardiac defibrillator",
+  "n": ["Presence of automatic (implantable) cardiac defibrillator with synchronous cardiac pacemaker"]
+}, {
+  "i": "Z95.811",
+  "d": "Presence of heart assist device"
+}, {
+  "i": "Z95.812",
+  "d": "Presence of fully implantable artificial heart"
+}, {
+  "i": "Z95.818",
+  "d": "Presence of other cardiac implants and grafts"
+}, {
+  "i": "Z95.820",
+  "d": "Peripheral vascular angioplasty status with implants and grafts"
+}, {
+  "i": "Z95.828",
+  "d": "Presence of other vascular implants and grafts",
+  "n": ["Presence of intravascular prosthesis NEC"]
+}, {
+  "i": "Z95.9",
+  "d": "Presence of cardiac and vascular implant and graft, unspecified"
+}, {
+  "i": "Z96.0",
+  "d": "Presence of urogenital implants"
+}, {
+  "i": "Z96.1",
+  "d": "Presence of intraocular lens",
+  "n": ["Presence of pseudophakia"]
+}, {
+  "i": "Z96.20",
+  "d": "Presence of otological and audiological implant, unspecified"
+}, {
+  "i": "Z96.21",
+  "d": "Cochlear implant status"
+}, {
+  "i": "Z96.22",
+  "d": "Myringotomy tube(s) status"
+}, {
+  "i": "Z96.29",
+  "d": "Presence of other otological and audiological implants",
+  "n": ["Presence of bone-conduction hearing device", "Presence of eustachian tube stent", "Stapes replacement"]
+}, {
+  "i": "Z96.3",
+  "d": "Presence of artificial larynx"
+}, {
+  "i": "Z96.41",
+  "d": "Presence of insulin pump (external) (internal)"
+}, {
+  "i": "Z96.49",
+  "d": "Presence of other endocrine implants"
+}, {
+  "i": "Z96.5",
+  "d": "Presence of tooth-root and mandibular implants"
+}, {
+  "i": "Z96.60",
+  "d": "Presence of unspecified orthopedic joint implant"
+}, {
+  "i": "Z96.611",
+  "d": "Presence of right artificial shoulder joint"
+}, {
+  "i": "Z96.612",
+  "d": "Presence of left artificial shoulder joint"
+}, {
+  "i": "Z96.619",
+  "d": "Presence of unspecified artificial shoulder joint"
+}, {
+  "i": "Z96.621",
+  "d": "Presence of right artificial elbow joint"
+}, {
+  "i": "Z96.622",
+  "d": "Presence of left artificial elbow joint"
+}, {
+  "i": "Z96.629",
+  "d": "Presence of unspecified artificial elbow joint"
+}, {
+  "i": "Z96.631",
+  "d": "Presence of right artificial wrist joint"
+}, {
+  "i": "Z96.632",
+  "d": "Presence of left artificial wrist joint"
+}, {
+  "i": "Z96.639",
+  "d": "Presence of unspecified artificial wrist joint"
+}, {
+  "i": "Z96.641",
+  "d": "Presence of right artificial hip joint"
+}, {
+  "i": "Z96.642",
+  "d": "Presence of left artificial hip joint"
+}, {
+  "i": "Z96.643",
+  "d": "Presence of artificial hip joint, bilateral"
+}, {
+  "i": "Z96.649",
+  "d": "Presence of unspecified artificial hip joint"
+}, {
+  "i": "Z96.651",
+  "d": "Presence of right artificial knee joint"
+}, {
+  "i": "Z96.652",
+  "d": "Presence of left artificial knee joint"
+}, {
+  "i": "Z96.653",
+  "d": "Presence of artificial knee joint, bilateral"
+}, {
+  "i": "Z96.659",
+  "d": "Presence of unspecified artificial knee joint"
+}, {
+  "i": "Z96.661",
+  "d": "Presence of right artificial ankle joint"
+}, {
+  "i": "Z96.662",
+  "d": "Presence of left artificial ankle joint"
+}, {
+  "i": "Z96.669",
+  "d": "Presence of unspecified artificial ankle joint"
+}, {
+  "i": "Z96.691",
+  "d": "Finger-joint replacement of right hand"
+}, {
+  "i": "Z96.692",
+  "d": "Finger-joint replacement of left hand"
+}, {
+  "i": "Z96.693",
+  "d": "Finger-joint replacement, bilateral"
+}, {
+  "i": "Z96.698",
+  "d": "Presence of other orthopedic joint implants"
+}, {
+  "i": "Z96.7",
+  "d": "Presence of other bone and tendon implants",
+  "n": ["Presence of skull plate"]
+}, {
+  "i": "Z96.81",
+  "d": "Presence of artificial skin"
+}, {
+  "i": "Z96.89",
+  "d": "Presence of other specified functional implants"
+}, {
+  "i": "Z96.9",
+  "d": "Presence of functional implant, unspecified"
+}, {
+  "i": "Z97.0",
+  "d": "Presence of artificial eye"
+}, {
+  "i": "Z97.10",
+  "d": "Presence of artificial limb (complete) (partial), unspecified"
+}, {
+  "i": "Z97.11",
+  "d": "Presence of artificial right arm (complete) (partial)"
+}, {
+  "i": "Z97.12",
+  "d": "Presence of artificial left arm (complete) (partial)"
+}, {
+  "i": "Z97.13",
+  "d": "Presence of artificial right leg (complete) (partial)"
+}, {
+  "i": "Z97.14",
+  "d": "Presence of artificial left leg (complete) (partial)"
+}, {
+  "i": "Z97.15",
+  "d": "Presence of artificial arms, bilateral (complete) (partial)"
+}, {
+  "i": "Z97.16",
+  "d": "Presence of artificial legs, bilateral (complete) (partial)"
+}, {
+  "i": "Z97.2",
+  "d": "Presence of dental prosthetic device (complete) (partial)",
+  "n": ["Presence of dentures (complete) (partial)"]
+}, {
+  "i": "Z97.3",
+  "d": "Presence of spectacles and contact lenses"
+}, {
+  "i": "Z97.4",
+  "d": "Presence of external hearing-aid"
+}, {
+  "i": "Z97.5",
+  "d": "Presence of (intrauterine) contraceptive device"
+}, {
+  "i": "Z97.8",
+  "d": "Presence of other specified devices"
+}, {
+  "i": "Z98.0",
+  "d": "Intestinal bypass and anastomosis status"
+}, {
+  "i": "Z98.1",
+  "d": "Arthrodesis status"
+}, {
+  "i": "Z98.2",
+  "d": "Presence of cerebrospinal fluid drainage device",
+  "n": ["Presence of CSF shunt"]
+}, {
+  "i": "Z98.3",
+  "d": "Post therapeutic collapse of lung status"
+}, {
+  "i": "Z98.41",
+  "d": "Cataract extraction status, right eye"
+}, {
+  "i": "Z98.42",
+  "d": "Cataract extraction status, left eye"
+}, {
+  "i": "Z98.49",
+  "d": "Cataract extraction status, unspecified eye"
+}, {
+  "i": "Z98.51",
+  "d": "Tubal ligation status"
+}, {
+  "i": "Z98.52",
+  "d": "Vasectomy status"
+}, {
+  "i": "Z98.61",
+  "d": "Coronary angioplasty status"
+}, {
+  "i": "Z98.62",
+  "d": "Peripheral vascular angioplasty status"
+}, {
+  "i": "Z98.810",
+  "d": "Dental sealant status"
+}, {
+  "i": "Z98.811",
+  "d": "Dental restoration status",
+  "n": ["Dental crown status", "Dental fillings status"]
+}, {
+  "i": "Z98.818",
+  "d": "Other dental procedure status"
+}, {
+  "i": "Z98.82",
+  "d": "Breast implant status"
+}, {
+  "i": "Z98.83",
+  "d": "Filtering (vitreous) bleb after glaucoma surgery status"
+}, {
+  "i": "Z98.84",
+  "d": "Bariatric surgery status",
+  "n": ["Gastric banding status", "Gastric bypass status for obesity", "Obesity surgery status"]
+}, {
+  "i": "Z98.85",
+  "d": "Transplanted organ removal status",
+  "n": ["Transplanted organ previously removed due to complication, failure, rejection or infection"]
+}, {
+  "i": "Z98.86",
+  "d": "Personal history of breast implant removal"
+}, {
+  "i": "Z98.870",
+  "d": "Personal history of in utero procedure during pregnancy"
+}, {
+  "i": "Z98.871",
+  "d": "Personal history of in utero procedure while a fetus"
+}, {
+  "i": "Z98.89",
+  "d": "Other specified postprocedural states",
+  "n": ["Personal history of surgery, not elsewhere classified"]
+}, {
+  "i": "Z99.0",
+  "d": "Dependence on aspirator"
+}, {
+  "i": "Z99.11",
+  "d": "Dependence on respirator [ventilator] status"
+}, {
+  "i": "Z99.12",
+  "d": "Encounter for respirator [ventilator] dependence during power failure"
+}, {
+  "i": "Z99.2",
+  "d": "Dependence on renal dialysis",
+  "n": ["Hemodialysis status", "Peritoneal dialysis status", "Presence of arteriovenous shunt for dialysis",
+    "Renal dialysis status NOS"
+  ]
+}, {
+  "i": "Z99.3",
+  "d": "Dependence on wheelchair",
+  "n": ["Wheelchair confinement status"]
+}, {
+  "i": "Z99.81",
+  "d": "Dependence on supplemental oxygen",
+  "n": ["Dependence on long-term oxygen"]
+}, {
+  "i": "Z99.89",
+  "d": "Dependence on other enabling machines and devices",
+  "n": ["Dependence on machine or device NOS"]
+}]

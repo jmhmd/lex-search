@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lex Search</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style media="screen">
+    .twitter-typeahead {
+      width: 500px;
+    }
+    .tt-input,
+    .tt-hint {
+    }
+    .tt-hint {
+      color: #999;
+    }
+    .tt-menu {
+      width: 422px;
+      margin-top: 12px;
+      padding: 8px 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    }
+    .tt-dataset h3 {
+      padding: 3px 20px;
+      border-bottom: 1px solid #999;
+      font-size: 24px;
+    }
+    .tt-suggestion {
+      padding: 3px 25px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .tt-suggestion:hover {
+      cursor: pointer;
+      color: #fff;
+      background-color: #0097cf;
+    }
+    .tt-suggestion:hover .text-muted {
+
+    }
+    .tt-suggestion p {
+      margin: 0;
+    }
+
+    /* ---- */
+    .lex-search {
+      width: auto;
+    }
+    .text-muted {
+      color: #aaa;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Search below</h3>
+          <div class="lex-search">
+            <input type="text" class="form-control typeahead">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="build/bundle.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script> -->
+    <script type="text/javascript" src="typeahead-dev.js"></script>
+    <script type="text/javascript" src="natural-sort.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

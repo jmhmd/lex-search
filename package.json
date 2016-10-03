@@ -1,0 +1,31 @@
+{
+  "name": "lex-search",
+  "version": "0.1.0",
+  "description": "Fast medical lexicon search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "author": "Jason Hostetter",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "csv2": "^0.1.1",
+    "express": "^4.14.0",
+    "lunr": "^0.7.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "split2": "^2.1.0",
+    "through2": "^2.0.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
