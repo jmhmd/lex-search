@@ -24,10 +24,24 @@
       border-radius: 8px;
       box-shadow: 0 5px 10px rgba(0,0,0,.2);
     }
-    .tt-dataset h3 {
-      padding: 3px 20px;
+    .tt-dataset {
+      margin-bottom: 20px;
+    }
+    .tt-dataset:last-of-type {
+      margin-bottom: 0;
+    }
+    .tt-dataset .lex-name {
+      padding: 0px 15px;
+      margin-bottom: 5px;
       border-bottom: 1px solid #999;
       font-size: 24px;
+    }
+    .tt-dataset .lex-name-note {
+      font-size: 12px;
+      line-height: 35px;
+      margin-right: 15px;
+      position: relative;
+      bottom: -5px;
     }
     .tt-suggestion {
       padding: 3px 25px;
@@ -58,19 +72,25 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <h3>Search below</h3>
           <div class="lex-search">
             <input type="text" class="form-control typeahead">
           </div>
         </div>
+        <div class="col-md-6">
+          <div id="typeahead-selections"></div>
+        </div>
       </div>
     </div>
     <!-- <script src="build/bundle.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script> -->
-    <script type="text/javascript" src="typeahead-dev.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="typeahead-dev.js"></script> -->
     <script type="text/javascript" src="natural-sort.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <!-- <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="selection-list.js"></script> -->
+    <script type="text/javascript" src="dist/bundle.js"></script>
   </body>
 </html>

@@ -38,7 +38,9 @@ const readStream = fs.createReadStream(__dirname + '/icd10.json.intermediate1')
       if (child.diag && child.diag.length > 0) {
         walkChildren(child.diag);
       }
-      addElement(child);
+      if (child.name && child.desc) {
+        addElement(child);
+      }
     }
 
     function walkChildren (childArray) {

@@ -1,6 +1,12 @@
+var ReactDOM = require('react-dom');
+
+var SelectionList = require('./selection-list.js');
+ReactDOM.render(<SelectionList />, document.getElementById('typeahead-selections'));
+
 var remoteHost = 'http://localhost:3000';
 var transformFunc = function (response) {
   var result = response.result.map(function (e) {
+    e.doc.perf = response.perf;
     return e.doc;
   })
   // sort if icd10
@@ -45,7 +51,11 @@ $('.typeahead').typeahead({
   source: radlex,
   limit: Infinity,
   templates: {
-    header: '<h3 class="lex-name">RADLEX</h3>',
+    header: function (data) {
+      return '<div class="lex-name-note text-muted pull-right" style="font-size:12px">' + data.suggestions[0].perf.numSearched.toLocaleString() +
+        ' documents in ' + data.suggestions[0].perf.milliseconds.toLocaleString() + ' ms</div>' +
+        '<div class="lex-name">RADLEX</div>';
+    },
     suggestion: function (data) {
       var el = '<div class="lex-listing">' +
         '<div class="text-muted pull-right">' + data.i + '</div>' +
@@ -60,7 +70,11 @@ $('.typeahead').typeahead({
   source: icd10,
   limit: Infinity,
   templates: {
-    header: '<h3 class="lex-name">ICD10</h3>',
+    header: function (data) {
+      return '<div class="lex-name-note text-muted pull-right" style="font-size:12px">' + data.suggestions[0].perf.numSearched.toLocaleString() +
+        ' documents in ' + data.suggestions[0].perf.milliseconds.toLocaleString() + ' ms</div>' +
+        '<div class="lex-name">ICD10</div>';
+    },
     suggestion: function (data) {
       var el = '<div class="lex-listing">' +
         '<div class="text-muted pull-right">' + data.i + '</div>' +
@@ -68,4 +82,8 @@ $('.typeahead').typeahead({
       return el;
     },
   },
+});
+
+$('.typeahead').on('typeahead:select', function(ev, suggestion) {
+  console.log(suggestion);
 });
