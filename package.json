@@ -2,10 +2,11 @@
   "name": "lex-search",
   "version": "0.1.0",
   "description": "Fast medical lexicon search",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --progress --colors --watch"
+    "watch": "webpack --progress --colors --watch",
+    "start": "node server.js"
   },
   "author": "Jason Hostetter",
   "license": "ISC",
