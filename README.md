@@ -4,15 +4,29 @@ Fast search of standardized lexicons like ICD10 and Radlex, using Twitter typeah
 ## Install
 Clone the repository, then in the repo directory:
 
-`npm install` 
+`npm install`
 
 `npm install -g webpack`
 
-`webpack`
+`npm run build`
 
 `npm start`
 
 Go to `localhost:3000`
+
+## Building
+For development, use
+
+`npm run watch`
+
+This will use the development version of React, and watch for changes.
+
+For prodution, use
+
+`npm run build`
+
+which just adds the NODE_ENV=production flag to the build, which builds the production version of React,
+which is smaller and with fewer warnings.
 
 ## Sources
 Two lexicons are currently included, ICD-10 and Radlex, the radiology lexicon.
