@@ -1,7 +1,15 @@
+/* global $ */
+
+var React = require('react');
 var ReactDOM = require('react-dom');
 
 var SelectionList = require('./selection-list.js');
-ReactDOM.render(<SelectionList />, document.getElementById('typeahead-selections'));
+ReactDOM.render(
+  <SelectionList
+    listenNode={$('.typeahead').get(0)}
+  />,
+  document.getElementById('typeahead-selections')
+);
 
 var remoteHost = 'http://localhost:3000';
 var transformFunc = function (response) {

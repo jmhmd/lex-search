@@ -46,10 +46,15 @@
 
 	'use strict';
 
+	/* global $ */
+
+	var React = __webpack_require__(167);
 	var ReactDOM = __webpack_require__(1);
 
 	var SelectionList = __webpack_require__(166);
-	ReactDOM.render(React.createElement(SelectionList, null), document.getElementById('typeahead-selections'));
+	ReactDOM.render(React.createElement(SelectionList, {
+	  listenNode: $('.typeahead').get(0)
+	}), document.getElementById('typeahead-selections'));
 
 	var remoteHost = 'http://localhost:3000';
 	var transformFunc = function transformFunc(response) {
@@ -20928,19 +20933,88 @@
 
 	'use strict';
 
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	/* global $ */
 	var React = __webpack_require__(167);
 
-	var SelectionList = React.createClass({
-	  displayName: 'SelectionList',
+	var SelectionList = function (_React$Component) {
+	  _inherits(SelectionList, _React$Component);
 
-	  render: function render() {
-	    return React.createElement(
-	      'h2',
-	      null,
-	      'Hello world'
-	    );
+	  function SelectionList(props) {
+	    _classCallCheck(this, SelectionList);
+
+	    var _this = _possibleConstructorReturn(this, (SelectionList.__proto__ || Object.getPrototypeOf(SelectionList)).call(this, props));
+
+	    _this.state = {
+	      docs: _this.props.docs || []
+	    };
+	    return _this;
 	  }
-	});
+
+	  _createClass(SelectionList, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      var _this2 = this;
+
+	      $(this.props.listenNode).on('typeahead:select', function (e, doc) {
+	        var newDocs = _this2.state.docs;
+	        newDocs.push(doc);
+	        _this2.setState({ docs: newDocs });
+	      });
+	    }
+	  }, {
+	    key: 'handleRemove',
+	    value: function handleRemove(i) {
+	      var newDocs = this.state.docs;
+	      newDocs.splice(i, 1);
+	      this.setState({ docs: newDocs });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _this3 = this;
+
+	      var docs = this.state.docs.map(function (doc, i) {
+	        return React.createElement(
+	          'div',
+	          { className: 'doc alert alert-info alert-dismissable', key: doc.i },
+	          React.createElement(
+	            'div',
+	            { className: 'pull-right text-muted' },
+	            doc.i
+	          ),
+	          React.createElement(
+	            'button',
+	            { className: 'close pull-left', onClick: function onClick() {
+	                return _this3.handleRemove(i);
+	              } },
+	            '\xD7'
+	          ),
+	          doc.d
+	        );
+	      });
+	      return React.createElement(
+	        'div',
+	        { className: 'lex-search-selections' },
+	        docs
+	      );
+	    }
+	  }]);
+
+	  return SelectionList;
+	}(React.Component);
+
+	SelectionList.propTypes = {
+	  docs: React.PropTypes.array,
+	  listenNode: React.PropTypes.object.isRequired
+	};
 
 	module.exports = SelectionList;
 
