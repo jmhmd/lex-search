@@ -11,7 +11,7 @@ const indices = {
   icd10: lunr.Index.load(JSON.parse(fs.readFileSync('./lunr_index/icd10_index.json'))),
   radlex: lunr.Index.load(JSON.parse(fs.readFileSync('./lunr_index/radlex_index.json'))),
   combined: lunr.Index.load(JSON.parse(fs.readFileSync('./lunr_index/combined_index.json'))),
-}
+};
 console.info('...done');
 
 /*
