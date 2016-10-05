@@ -23,10 +23,11 @@ const lexicons = {
   icd10: JSON.parse(fs.readFileSync('./sources/icd10/icd10.json')),
   radlex: JSON.parse(fs.readFileSync('./sources/radlex/radlex.json')),
 };
-lexicons.combined = [];
+let combined = [];
 Object.keys(lexicons).forEach((key) => {
-  lexicons.combined.concat(lexicons[key]);
+  combined = combined.concat(lexicons[key]);
 });
+lexicons.combined = combined;
 console.info('...done');
 
 /*
@@ -43,6 +44,10 @@ app.use(express.static('public'));
 app.get('/search', (req, res) => {
   const query = req.query.q;
   const lexicon = req.query.l || 'combined';
+
+  if (!query) {
+    return res.status(400).send('Query string required');
+  }
 
   const start = new Date();
 

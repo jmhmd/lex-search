@@ -1,6 +1,8 @@
 # lex-search
 Fast search of standardized lexicons like ICD10 and Radlex, using flat files, node.js + express.js, [Twitter typeahead.js](http://twitter.github.io/typeahead.js/) and [lunr.js](http://lunrjs.com/)
 
+Inspired by [ClinDesk icd10 search](https://github.com/WhiteCoatAcademy/icd10), but doing the searching server side, in-memory, to avoid needing to download a multi-MB file to the client. This also theoretically allows many more lexicons to be added without affecting performance on the client.
+
 ## Install
 Clone the repository, then in the repo directory:
 
@@ -25,8 +27,7 @@ For prodution, use
 
 `npm run build`
 
-which just adds the NODE_ENV=production flag to the build, which builds the production version of React,
-which is smaller and with fewer warnings.
+which just adds the NODE_ENV=production flag to the build, which builds the production version of React, which is smaller and with fewer warnings.
 
 ## Sources
 Two lexicons are currently included, ICD-10 and Radlex, the radiology lexicon.
