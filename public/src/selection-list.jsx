@@ -26,10 +26,16 @@ class SelectionList extends React.Component {
 
   render() {
     const docs = this.state.docs.map((doc, i) => (
-      <div className="doc alert alert-info alert-dismissable" key={doc.i}>
-        <div className="pull-right text-muted">{doc.i}</div>
+      <div
+        className="doc alert alert-info alert-dismissable"
+        key={doc.i}
+        data-id={doc.i}
+        data-description={doc.d}
+        data-notes={doc.n}
+      >
+        <div className="doc-id pull-right text-muted">{doc.i}</div>
         <button className="close pull-left" onClick={() => this.handleRemove(i)}>&times;</button>
-        {doc.d}
+        <div className="doc-description">{doc.d}</div>
       </div>
     ));
     return (

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
+const morgan = require('morgan');
 
 /*
 Set up lunr
@@ -33,6 +34,7 @@ console.info('...done');
 Config
  */
 const resultLimit = 20;
+app.use(morgan('combined'));
 
 /*
 Routes

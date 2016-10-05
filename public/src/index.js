@@ -30,7 +30,7 @@ const icd10 = new Bloodhound({
   queryTokenizer: Bloodhound.tokenizers.whitespace,
   prefetch: `${remoteHost}/prefetch?l=icd10`,
   remote: {
-    url: `${remoteHost}/search?l=icd10&q=%QUERY'`,
+    url: `${remoteHost}/search?l=icd10&q=%QUERY`,
     wildcard: '%QUERY',
     transform: transformFunc,
   },
@@ -47,11 +47,12 @@ const radlex = new Bloodhound({
   },
 });
 
-$('.typeahead').typeahead({
-  hint: true,
-  highlight: true,
-  minLength: 1,
-},
+$('.typeahead')
+  .typeahead({
+    hint: true,
+    highlight: true,
+    minLength: 1,
+  },
   {
     name: 'radlex',
     display: 'd',
@@ -98,3 +99,28 @@ $('.typeahead').typeahead({
 // $('.typeahead').on('typeahead:select', (ev, suggestion) => {
 //   console.log(suggestion);
 // });
+
+const emptyMessage = `<div class="empty-message">
+    No matches found.
+  </div>`;
+const emptyMessageNode = $(emptyMessage);
+// hide empty message by default
+emptyMessageNode.hide();
+// get menu element and append hidden empty messsage element
+const menuNode = $('.typeahead.tt-input').data('tt-typeahead').menu.$node;
+menuNode.append(emptyMessageNode);
+
+$('.typeahead').on('typeahead:asyncreceive', function () {
+  if ($(this).data('tt-typeahead').menu._allDatasetsEmpty()) {
+    // hide dataset result containers
+    menuNode.find('.tt-dataset').hide();
+    // show empty message and menu
+    emptyMessageNode.show();
+    menuNode.show();
+  } else {
+    // show dataset result containers
+    menuNode.find('.tt-dataset').show();
+    // hide empty message
+    emptyMessageNode.hide();
+  }
+});
