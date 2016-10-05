@@ -1,0 +1,12 @@
+{
+  "apps" : [
+    {
+      "name"       : "lex-search",
+      "script"     : "server.js",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "8003",
+      }
+    }
+  ]
+}
