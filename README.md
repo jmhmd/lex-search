@@ -1,5 +1,5 @@
 # lex-search
-Fast search of standardized lexicons like ICD10 and Radlex, using Twitter typeahead.js and lunr.js
+Fast search of standardized lexicons like ICD10 and Radlex, using flat files, node.js + express.js, [Twitter typeahead.js](http://twitter.github.io/typeahead.js/) and [lunr.js](http://lunrjs.com/)
 
 ## Install
 Clone the repository, then in the repo directory:
