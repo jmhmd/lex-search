@@ -25,10 +25,13 @@
       box-shadow: 0 5px 10px rgba(0,0,0,.2);
     }
     .tt-dataset {
-      margin-bottom: 20px;
+      margin-top: 20px;
     }
-    .tt-dataset:nth-last-of-type(2), .tt-dataset:empty {
-      margin-bottom: 0;
+    .tt-dataset:first-of-type {
+      margin-top: 0;
+    }
+    .tt-dataset:first-of-type:empty {
+      margin-top: -20px;
     }
     .tt-dataset .lex-name {
       padding: 0px 15px;

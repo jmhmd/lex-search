@@ -4,7 +4,10 @@ const fs = require('fs');
 
 let j = 0;
 
-const readStream = fs.createReadStream(__dirname + '/icd10.json.intermediate1')
+const inFile = `${__dirname}/icd10.json.intermediate1`;
+const outFile = `${__dirname}/icd10.json`;
+
+const readStream = fs.createReadStream(inFile)
   .pipe(split2())
   .pipe(through2(function (chunk, enc, callback) {
     chunk = JSON.parse(chunk.toString());
@@ -50,10 +53,10 @@ const readStream = fs.createReadStream(__dirname + '/icd10.json.intermediate1')
     }
 
     handleChild(chunk);
-    this.push('\n');
+    // this.push('\n');
     callback();
   }))
   .on('end', function () {
-    fs.appendFile(__dirname + '/icd10.json', ']');
+    fs.appendFile(outFile, ']');
   })
-  .pipe(fs.createWriteStream(__dirname + '/icd10.json'));
+  .pipe(fs.createWriteStream(outFile));
