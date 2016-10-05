@@ -11,7 +11,8 @@ ReactDOM.render(
   document.getElementById('typeahead-selections')
 );
 
-const remoteHost = 'http://localhost:3000';
+// const remoteHost = 'http://localhost:3000';
+const remoteHost = '';
 
 const transformFunc = function (response) {
   let result = response.result.map((e) => {
