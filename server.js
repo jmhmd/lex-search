@@ -23,11 +23,10 @@ const lexicons = {
   icd10: JSON.parse(fs.readFileSync('./sources/icd10/icd10.json')),
   radlex: JSON.parse(fs.readFileSync('./sources/radlex/radlex.json')),
 };
-let combinedLexicons = [];
-for (key in lexicons) {
-  combinedLexicons = combinedLexicons.concat(lexicons[key]);
-}
-lexicons.combined = combinedLexicons;
+lexicons.combined = [];
+Object.keys(lexicons).forEach((key) => {
+  lexicons.combined.concat(lexicons[key]);
+});
 console.info('...done');
 
 /*
@@ -41,7 +40,7 @@ Routes
  */
 app.use(express.static('public'));
 
-app.get('/search', function (req, res) {
+app.get('/search', (req, res) => {
   const query = req.query.q;
   const lexicon = req.query.l || 'combined';
 
@@ -49,27 +48,29 @@ app.get('/search', function (req, res) {
 
   const result = indices[lexicon].search(query).slice(0, resultLimit);
   const fullResult = {
-    result: result.map((r) => {
-      return {
-        doc: lexicons[lexicon][r.ref],
-        score: r.score,
-      }
-    }),
+    result: result.map((r) => ({
+      doc: lexicons[lexicon][r.ref],
+      score: r.score,
+    })),
     lexicon,
     perf: {
       numSearched: lexicons[lexicon].length,
       milliseconds: new Date() - start,
-    }
+    },
   };
   return res.send(fullResult);
 });
 
-app.get('/prefetch', function (req, res) {
+app.get('/prefetch', (req, res) => {
+  /* eslint no-unused-vars: 0 */
   const lexicon = req.query.l || 'combined';
+  // use lexicon query string to return default
+  // prepopulated suggestions, like maybe most popular
+  // or most common.
   return res.send([]);
-})
+});
 
 const port = process.env.PORT || 3000;
-app.listen(port, function () {
+app.listen(port, () => {
   console.log(`Lex-search server listening on port ${port}`);
 });
