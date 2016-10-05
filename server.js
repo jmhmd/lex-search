@@ -34,7 +34,7 @@ console.info('...done');
 Config
  */
 const resultLimit = 20;
-app.use(morgan('combined'));
+app.use(morgan('short'));
 
 /*
 Routes
