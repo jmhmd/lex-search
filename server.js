@@ -71,5 +71,5 @@ app.get('/prefetch', function (req, res) {
 
 const port = process.env.PORT || 3000;
 app.listen(port, function () {
-  console.log('Lex-search server listening on port ${port}');
+  console.log(`Lex-search server listening on port ${port}`);
 });
