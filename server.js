@@ -20,6 +20,7 @@ const corsOptions = {
     callback(originIsWhitelisted ? null : 'Bad Request', originIsWhitelisted);
   },
 };
+app.use(cors(corsOptions));
 
 /*
 Set up lunr
