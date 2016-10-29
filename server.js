@@ -2,6 +2,24 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
+const cors = require('cors');
+
+/*
+CORS
+*/
+const whitelist = [
+  'http://localhost:8080',
+  'http://pacsbin.com',
+  'https://pacsbin.com',
+  'http://dev.pacsbin.com',
+  'https://dev.pacsbin.com',
+];
+const corsOptions = {
+  origin: (origin, callback) => {
+    const originIsWhitelisted = whitelist.indexOf(origin) !== -1;
+    callback(originIsWhitelisted ? null : 'Bad Request', originIsWhitelisted);
+  },
+};
 
 /*
 Set up lunr
