@@ -3,6 +3,7 @@ const split2 = require('split2');
 const fs = require('fs');
 
 let j = 0;
+let k = 0;
 
 const inFile = `${__dirname}/icd10.json.intermediate1`;
 const outFile = `${__dirname}/icd10.json`;
@@ -22,8 +23,8 @@ const readStream = fs.createReadStream(inFile)
       const el = {
         i: element.name,
         d: element.desc,
-      }
-      for (p in element) {
+      };
+      for (const p in element) {
         // if (['name', 'desc', 'excludes1', 'excludes2'].indexOf(p) === -1) {
         if (p === 'inclusionTerm' && element[p].note) {
           if (typeof element[p].note === 'string') {
@@ -35,28 +36,31 @@ const readStream = fs.createReadStream(inFile)
       }
 
       this.push(JSON.stringify(el));
-    }
+    };
 
-    function handleChild (child) {
-      if (child.diag && child.diag.length > 0) {
-        walkChildren(child.diag);
+    function handleChild(child) {
+      if (child.diag) {
+        if (Array.isArray(child.diag) && child.diag.length > 0) {
+          walkChildren(child.diag);
+        } else {
+          handleChild(child.diag);
+        }
       }
       if (child.name && child.desc) {
         addElement(child);
       }
     }
 
-    function walkChildren (childArray) {
-      for (let i = 0; i < childArray.length; i++) {
-        handleChild(childArray[i]);
+    function walkChildren(children) {
+      for (let i = 0; i < children.length; i++) {
+        handleChild(children[i]);
       }
     }
 
     handleChild(chunk);
-    // this.push('\n');
     callback();
   }))
-  .on('end', function () {
+  .on('end', () => {
     fs.appendFile(outFile, ']');
   })
   .pipe(fs.createWriteStream(outFile));
