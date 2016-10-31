@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --progress --colors --watch",
     "build": "NODE_ENV=production webpack --progress --colors --optimize-dedupe",
-    "start": "node server.js"
+    "start": "node server-elasticsearch.js"
   },
   "author": "Jason Hostetter",
   "license": "ISC",
