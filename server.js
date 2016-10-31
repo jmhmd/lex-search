@@ -7,7 +7,7 @@ const cors = require('cors');
 /*
 CORS
 */
-const whitelist = [
+/*const whitelist = [
   'http://localhost:8080',
   'http://pacsbin.com',
   'https://pacsbin.com',
@@ -17,10 +17,11 @@ const whitelist = [
 const corsOptions = {
   origin: (origin, callback) => {
     const originIsWhitelisted = whitelist.indexOf(origin) !== -1;
-    callback(originIsWhitelisted ? null : 'Bad Request', originIsWhitelisted);
+    console.log('cors check', origin, originIsWhitelisted);
+    return callback(originIsWhitelisted ? null : 'Bad Request', originIsWhitelisted);
   },
-};
-app.use(cors(corsOptions));
+};*/
+app.use(cors());
 
 /*
 Set up lunr
