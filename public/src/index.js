@@ -19,10 +19,12 @@ const transformFunc = function (response) {
     e.doc.perf = response.perf;
     return e.doc;
   });
+  /*
   // sort if icd10
   if (response.lexicon === 'icd10') {
     result = result.sort((a, b) => naturalSort(a.i, b.i));
   }
+  */
   return result;
 };
 
