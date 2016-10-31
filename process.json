@@ -2,7 +2,7 @@
   "apps" : [
     {
       "name"       : "lex-search",
-      "script"     : "server.js",
+      "script"     : "server-elasticsearch.js",
       "env": {
         "NODE_ENV": "production",
         "PORT": "8003",
