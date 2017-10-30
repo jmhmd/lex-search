@@ -7,7 +7,8 @@ const morgan = require('morgan');
 const cors = require('cors');
 const elasticsearch = require('elasticsearch');
 
-const esHost = 'localhost:9200';
+// const esHost = 'localhost:9200';
+const esHost = 'https://search-lex-search-u63ythgk42vuqzggcvbukznzqa.us-east-2.es.amazonaws.com/';
 const esClient = new elasticsearch.Client({
   host: esHost,
 });
