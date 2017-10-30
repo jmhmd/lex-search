@@ -6,9 +6,12 @@ const app = express();
 const morgan = require('morgan');
 const cors = require('cors');
 const elasticsearch = require('elasticsearch');
+
+const esHost = 'localhost:9200';
 const esClient = new elasticsearch.Client({
-  host: process.env.NODE_ENV === 'production' ? 'localhost:9200' : 'es.lex.orionmd.com',
+  host: esHost,
 });
+console.log(`Using elasticsearch host ${esHost}`);
 
 /*
 CORS
@@ -44,6 +47,7 @@ const lexiconSizes = {
   radlex: JSON.parse(fs.readFileSync(`${__dirname}/sources/radlex/radlex.json`)).length,
 };
 console.log('...done');
+console.log(lexiconSizes);
 
 /*
 Routes
@@ -63,51 +67,47 @@ app.get('/search', (req, res) => {
 
   lexicon = lexicon || combinedLexicon;
 
-  esClient.search({
-    index: lexicon,
-    body: {
-      query: {
-        bool: {
-          must: {
-            match: {
-              _all: query,
-            },
-          },
-          should: {
-            regexp: {
-              lexID: {
-                value: '.+(\.).+',
-                boost: 0.5,
-              },
-            },
+  esClient.search(
+    {
+      index: lexicon,
+      body: {
+        query: {
+          multi_match: {
+            query,
+            fields: ['description^2', 'notes'],
+            type: 'phrase_prefix',
+            slop: 10,
+            max_expansions: 50,
           },
         },
+        size: resultLimit,
       },
     },
-    size: resultLimit,
-  }, (err, searchResult) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).send('Error searching lexicons.');
-    }
-    const fullResult = {
-      result: searchResult.hits.hits.map((hit) => ({
-        doc: {
-          i: hit._source.lexID,
-          d: hit._source.description,
-          n: hit._source.notes,
+    (err, searchResult) => {
+      if (err) {
+        console.error(err);
+        return res.status(500).send('Error searching lexicons.');
+      }
+      const fullResult = {
+        result: searchResult.hits.hits.map(hit => ({
+          doc: {
+            i: hit._source.lexID,
+            d: hit._source.description,
+            n: hit._source.notes,
+          },
+          lexicon: hit._index,
+          score: hit._score,
+        })),
+        lexicon,
+        perf: {
+          numSearched: lexicon.split(',').reduce((prev, name) => prev + lexiconSizes[name], 0),
+          milliseconds: searchResult.took,
         },
-        lexicon: hit._index,
-        score: hit._score,
-      })),
-      lexicon,
-      perf: {
-        numSearched: lexicon.split(',').reduce((prev, name) => prev + lexiconSizes[name], 0),
-        milliseconds: searchResult.took,
-      },
-    };
-    return res.send(fullResult);
-  });
+        query,
+      };
+      return res.send(fullResult);
+    }
+  );
 });
 
 app.get('/prefetch', (req, res) => {

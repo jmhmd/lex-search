@@ -5,26 +5,24 @@ const ReactDOM = require('react-dom');
 
 const SelectionList = require('./selection-list.jsx');
 ReactDOM.render(
-  <SelectionList
-    listenNode={$('.typeahead').get(0)}
-  />,
+  <SelectionList listenNode={$('.typeahead').get(0)} />,
   document.getElementById('typeahead-selections')
 );
 
 // const remoteHost = 'http://localhost:3000';
 const remoteHost = '';
 
-const transformFunc = function (response) {
-  let result = response.result.map((e) => {
+const transformFunc = function(response) {
+  let result = response.result.map(e => {
     e.doc.perf = response.perf;
     return e.doc;
   });
-  /*
-  // sort if icd10
-  if (response.lexicon === 'icd10') {
-    result = result.sort((a, b) => naturalSort(a.i, b.i));
-  }
-  */
+
+  // sort by id
+  // if (response.lexicon === 'icd10') {
+  // result = result.sort((a, b) => naturalSort(a.i, b.i));
+  // }
+
   return result;
 };
 
@@ -50,54 +48,63 @@ const radlex = new Bloodhound({
   },
 });
 
-$('.typeahead')
-  .typeahead({
+const getTemplates = (title) => {
+  return {
+    header(data) {
+      let numSearched = '';
+      if (data.suggestions[0].perf) {
+        numSearched = `<div class="lex-name-note text-muted pull-right" style="font-size:12px">
+          ${data.suggestions[0].perf.numSearched.toLocaleString()}
+          documents in ${data.suggestions[0].perf.milliseconds.toLocaleString()} ms</div>`;
+      }
+      return `${numSearched}
+        <div class="lex-name">${title}</div>`;
+    },
+    suggestion(data) {
+      const el = `<div class="lex-listing">
+        <div class="text-muted pull-right">${data.i}</div>
+        ${data.d}
+      </div>`;
+      return el;
+    },
+  }
+}
+
+$('.typeahead').typeahead(
+  {
     hint: true,
     highlight: true,
+    autoselect: true,
     minLength: 1,
+  },
+  {
+    name: 'custom',
+    display: 'd',
+    source: (query, syncResults) => {
+      return syncResults([
+        {
+          i: 'custom',
+          d: query,
+        },
+      ]);
+    },
+    templates: getTemplates('Custom'),
   },
   {
     name: 'radlex',
     display: 'd',
     source: radlex,
     limit: Infinity,
-    templates: {
-      header(data) {
-        return `<div class="lex-name-note text-muted pull-right" style="font-size:12px">
-          ${data.suggestions[0].perf.numSearched.toLocaleString()}
-          documents in ${data.suggestions[0].perf.milliseconds.toLocaleString()} ms</div>
-        <div class="lex-name">RADLEX</div>`;
-      },
-      suggestion(data) {
-        const el = `<div class="lex-listing">
-          <div class="text-muted pull-right">${data.i}</div>
-          ${data.d}
-        </div>`;
-        return el;
-      },
-    },
+    templates: getTemplates('Radlex'),
   },
   {
     name: 'icd10',
     display: 'd',
     source: icd10,
     limit: Infinity,
-    templates: {
-      header(data) {
-        return `<div class="lex-name-note text-muted pull-right" style="font-size:12px">
-          ${data.suggestions[0].perf.numSearched.toLocaleString()}
-          documents in ${data.suggestions[0].perf.milliseconds.toLocaleString()} ms</div>
-        <div class="lex-name">ICD10</div>`;
-      },
-      suggestion(data) {
-        const el = `<div class="lex-listing">
-          <div class="text-muted pull-right">${data.i}</div>
-          ${data.d}
-        </div>`;
-        return el;
-      },
-    },
-  });
+    templates: getTemplates('ICD10'),
+  }
+);
 
 // $('.typeahead').on('typeahead:select', (ev, suggestion) => {
 //   console.log(suggestion);
@@ -113,8 +120,12 @@ emptyMessageNode.hide();
 const menuNode = $('.typeahead.tt-input').data('tt-typeahead').menu.$node;
 menuNode.append(emptyMessageNode);
 
-$('.typeahead').on('typeahead:asyncreceive', function () {
-  if ($(this).data('tt-typeahead').menu._allDatasetsEmpty()) {
+$('.typeahead').on('typeahead:asyncreceive', function() {
+  if (
+    $(this)
+      .data('tt-typeahead')
+      .menu._allDatasetsEmpty()
+  ) {
     // hide dataset result containers
     menuNode.find('.tt-dataset').hide();
     // show empty message and menu

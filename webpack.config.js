@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const NODE_ENV = process.env.NODE_ENV || 'production';
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
 const plugins = [
   new webpack.DefinePlugin({

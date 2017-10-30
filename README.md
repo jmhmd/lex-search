@@ -1,7 +1,7 @@
 # lex-search
-Fast search of standardized lexicons like ICD10 and Radlex, using flat files, node.js + express.js, [Twitter typeahead.js](http://twitter.github.io/typeahead.js/) and [lunr.js](http://lunrjs.com/)
+Fast search of standardized lexicons like ICD10 and Radlex, using node.js + express.js, [Twitter typeahead.js](http://twitter.github.io/typeahead.js/) and [ElasticSearch](https://www.elastic.co/products/elasticsearch)
 
-Inspired by [ClinDesk icd10 search](https://github.com/WhiteCoatAcademy/icd10), but doing the searching server side, in-memory, to avoid needing to download a multi-MB file to the client. This also theoretically allows many more lexicons to be added without affecting performance on the client.
+Inspired by [ClinDesk icd10 search](https://github.com/WhiteCoatAcademy/icd10), but doing the searching server side to avoid needing to download a multi-MB file to the client. This also theoretically allows many more lexicons to be added without affecting performance on the client.
 
 ## Install
 Clone the repository, then in the repo directory:
@@ -43,4 +43,4 @@ The original source documents are parsed using the included scripts into JSON wi
   {...}
 ]
 ```
-The lunr index is pre-built with `node build-lunr-index.js`
+The elasticsearch index is pre-built with `node build-elasticsearch-index.js`

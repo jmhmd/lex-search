@@ -47,13 +47,10 @@
       font-size: 14px;
       line-height: 20px;
     }
-    .tt-suggestion:hover {
+    .tt-suggestion.tt-cursor {
       cursor: pointer;
       color: #fff;
       background-color: #0097cf;
-    }
-    .tt-suggestion:hover .text-muted {
-
     }
     .tt-suggestion p {
       margin: 0;
@@ -105,12 +102,12 @@
           <img src="/images/orion-medical-small.png" alt="Orion Medical" height="50" style="float:right; margin-top:20px" />
           <h3>Lex Search</h3>
           <p>
-            Fast search of standardized lexicons like ICD10 and Radlex, using flat files, node.js + express.js,
-            <a href="http://twitter.github.io/typeahead.js/">Twitter typeahead.js</a> and <a href="http://lunrjs.com/">lunr.js</a>
+            Fast search of standardized lexicons like ICD10 and Radlex using node.js + express.js,
+            <a href="http://twitter.github.io/typeahead.js/">Twitter typeahead.js</a> and <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a>
           </p>
           <p>
             Inspired by <a href="https://github.com/WhiteCoatAcademy/icd10">ClinDesk icd10 search</a>,
-            but doing the searching server side, in-memory, to avoid needing to download a multi-MB file to the client.
+            but doing the searching server side to avoid needing to download a multi-MB file to the client.
             This also theoretically allows many more lexicons to be added without affecting performance on the client.
           </p>
           <p>
@@ -149,7 +146,7 @@
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.min.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.2.1/typeahead.bundle.min.js"></script>
     <!-- <script type="text/javascript" src="typeahead-dev.js"></script> -->
     <script type="text/javascript" src="natural-sort.js"></script>
     <!-- <script type="text/javascript" src="index.js"></script>
