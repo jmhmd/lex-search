@@ -57,7 +57,7 @@ app.use(express.static('public'));
 
 app.get('/search', (req, res) => {
   const query = req.query.q;
-  const combinedLexicon = 'icd10, radlex';
+  const combinedLexicon = 'icd10,radlex';
   let lexicon = req.query.l;
 
   if (!query) {
