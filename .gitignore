@@ -1,3 +1,4 @@
 node_modules
 public/dist/bundle.js.map
 .DS_Store
+.env

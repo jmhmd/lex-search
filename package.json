@@ -7,16 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --progress --colors --watch",
     "build": "NODE_ENV=production webpack --progress --colors --optimize-dedupe",
-    "start": "node server-elasticsearch.js"
+    "start": "node server-atlas-search.js"
   },
   "author": "Jason Hostetter",
   "license": "ISC",
   "dependencies": {
     "async": "^2.1.2",
     "cors": "^2.8.1",
+    "dotenv": "^16.0.1",
     "elasticsearch": "^13.3.1",
     "express": "^4.14.0",
     "lunr": "^0.7.1",
+    "mongodb": "^4.6.0",
     "morgan": "^1.7.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
